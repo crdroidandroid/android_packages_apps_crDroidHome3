@@ -22,7 +22,7 @@
         android:layout="@layout/homescreen_layout">
         <intent
             android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
-            android:targetPackage="com.google.android.apps.nexuslauncher"
+            android:targetPackage="com.crdroid.home3"
             android:targetClass="com.google.android.apps.nexuslauncher.HomeScreenActivity" />
     </Preference>
 
@@ -32,7 +32,7 @@
         android:layout="@layout/appdrawer_layout">
         <intent
             android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
-            android:targetPackage="com.google.android.apps.nexuslauncher"
+            android:targetPackage="com.crdroid.home3"
             android:targetClass="com.google.android.apps.nexuslauncher.AppDrawerActivity" />
     </Preference>
 
@@ -42,7 +42,7 @@
         android:layout="@layout/icons_layout">
         <intent
             android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
-            android:targetPackage="com.google.android.apps.nexuslauncher"
+            android:targetPackage="com.crdroid.home3"
             android:targetClass="com.google.android.apps.nexuslauncher.IconsActivity" />
     </Preference>
 
@@ -53,7 +53,7 @@
         android:layout="@layout/other_layout">
         <intent
             android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
-            android:targetPackage="com.google.android.apps.nexuslauncher"
+            android:targetPackage="com.crdroid.home3"
             android:targetClass="com.google.android.apps.nexuslauncher.OtherActivity" />
     </Preference>
 
