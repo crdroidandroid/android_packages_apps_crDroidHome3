@@ -28,8 +28,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.google.android.apps.nexuslauncher.AboutDialog;
-
 /**
  * Settings activity for Launcher.
  */

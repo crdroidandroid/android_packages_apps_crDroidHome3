@@ -154,11 +154,6 @@
     <string name="icon_category_title">Значки приложений</string>
     <string name="widget_category_title">Виджеты</string>
 
-    <!-- About -->
-    <string name="about_credits">Благодарности</string>
-    <string name="about_amirzaidi_title">Pixel Launcher 3 mod</string>
-    <string name="about_amirzaidi_summary">Функции Pixel Launcher в Launcher3 от Amir Zaidi, дополнения от ABC.</string>
-
     <!-- Hidden app -->
     <string name="hide_app">Скрыть приложения</string>
     <string name="hide_app_sum">Скрыть приложения из меню приложений</string>
