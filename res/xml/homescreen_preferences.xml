@@ -8,21 +8,9 @@
         android:defaultValue="true" />
 
     <SwitchPreference
-        android:key="pref_swipedown_notifications"
-        android:title="@string/swipedown_notifications"
-        android:summary="@string/swipedown_notifications_summary"
-        android:defaultValue="true" />
-
-    <SwitchPreference
         android:key="pref_show_swipeup_arrow"
         android:title="@string/show_swipeup_arrow"
         android:summary="@string/show_swipeup_arrow_summary"
-        android:defaultValue="true" />
-
-    <SwitchPreference
-        android:key="pref_dts"
-        android:title="@string/double_tap_sleep_title"
-        android:summary="@string/double_tap_sleep_summary"
         android:defaultValue="true" />
 
     <SwitchPreference
@@ -38,6 +26,23 @@
         android:summary="@string/bottom_search_bar_summary"
         android:defaultValue="true"
         android:persistent="true" />
+
+    <PreferenceCategory
+        android:key="gestures_category"
+        android:title="@string/gestures_category_title">
+
+        <SwitchPreference
+            android:key="pref_swipedown_notifications"
+            android:title="@string/swipedown_notifications"
+            android:summary="@string/swipedown_notifications_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="pref_dts"
+            android:title="@string/double_tap_sleep_title"
+            android:summary="@string/double_tap_sleep_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="grid_category"
@@ -89,7 +94,5 @@
             android:entryValues="@array/pref_show_clock_weather_values"
             android:defaultValue=""
             android:persistent="false" />
-
     </PreferenceCategory>
-
 </PreferenceScreen>
