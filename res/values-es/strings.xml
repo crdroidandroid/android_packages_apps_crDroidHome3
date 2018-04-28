@@ -146,12 +146,6 @@
     <string name="title_disable_suggestions_prompt">¿Desactivar las sugerencias de aplicaciones?</string>
     <string name="msg_disable_suggestions_prompt">No se mostrarán sugerencias en la parte superior de tu lista de aplicaciones, y los datos de uso utilizados para crearlas se borrarán de forma permanente.</string>
     <string name="label_turn_off_suggestions">DESACTIVAR</string>
-	
-    <!-- Preference categories -->
-    <string name="home_category_title">Pantalla de inicio</string>
-    <string name="app_drawer_category_title">Caja de aplic.</string>
-    <string name="icon_category_title">Iconos de aplic.</string>
-    <string name="widget_category_title">Widgets</string>
 
     <!-- About -->
     <string name="about_credits">Créditos</string>
@@ -169,11 +163,6 @@
     <string name="more">Mas</string>
     <string name="reset_hidden_apps">Reiniciar todo</string>
     <string name="reset_hidden_apps_done">Ocultar aplic. ahora disponibles</string>
-
-    <!-- Swipe up indicator -->
-    <string name="show_swipeup_arrow">Indicador deslizar hacia arriba</string>
-    <string name="show_swipeup_arrow_summary">Mostrar la flecha sobre el dock indicando deslizar hacia arriba</string>
-
 
     <string name="pref_show_clock_weather">Fecha y clima en pantalla de inicio</string>
     <string name="pref_show_clock_weather_both">Mostrar ambos fecha y clima</string>
@@ -223,4 +212,14 @@
 
     <string name="pref_override_icon_shape_dark_bg_title">Usar aspecto oscuro</string>
     <string name="pref_override_icon_shape_dark_bg_summary">Usa un color de fondo oscuto para los iconos sin su propio color de forma</string>
+
+    <!-- Swipe up indicator -->
+    <string name="show_swipeup_arrow">Indicador deslizar hacia arriba</string>
+    <string name="show_swipeup_arrow_summary">Mostrar la flecha sobre el dock indicando deslizar hacia arriba</string>
+
+    <!-- Preference categories -->
+    <string name="home_category_title">Pantalla de inicio</string>
+    <string name="app_drawer_category_title">Caja de aplic</string>
+    <string name="icon_category_title">Iconos de aplic</string>
+    <string name="widget_category_title">Widgets</string>
 </resources>

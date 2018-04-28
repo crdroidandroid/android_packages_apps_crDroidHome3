@@ -22,7 +22,8 @@
     <skip />
 
     <!-- Application name -->
-    <string name="app_name">Pixel Launcher</string>
+    <string name="crdroidhome_app_name">crDroid Home</string>
+    <string name="app_name">@string/crdroidhome_app_name</string>
     <!-- Default folder name -->
     <string name="folder_name"></string>
     <!-- Work folder name -->
@@ -341,14 +342,6 @@
     <string name="msg_disable_suggestions_prompt">"Suggestions won't appear at the top of your apps list, and the usage data used to create them will be permanently erased."</string>
     <string name="label_turn_off_suggestions">TURN OFF</string>
 
-    <!-- Preference categories -->
-    <string name="home_category_title">Home screen</string>
-    <string name="app_drawer_category_title">App drawer</string>
-    <string name="icon_category_title">App icons</string>
-    <string name="widget_category_title">Widgets</string>
-    <string name="other_category_title">Other</string>
-    <string name="other_category_summary">Miscellaneous configurations</string>
-
     <!-- About -->
     <string name="about_credits">Credits</string>
     <string name="about_credits_ok">OK</string>
@@ -416,4 +409,51 @@
     <string name="pref_override_icon_shape_dark_bg_summary">Use a dark background color for icons without their own shape color</string>
 
     <string name="smartspace_hours_mins">%1$s %2$s</string>
+
+    <!-- Folder titles -->
+    <string name="google_title" translatable="false">Google</string>
+    <string name="play_folder_title">Play</string>
+
+    <!-- Icon pack -->
+    <string name="default_iconpack" translatable="false">Stock</string>
+    <string name="default_iconpack_title">Default</string>
+    <string name="icons_pack_name">Icon pack</string>
+    <string name="edit_drop_target_label">Edit</string>
+    <string name="edit_app">Edit</string>
+    <string name="reset_icon">Reset</string>
+    <string name="customize">Customize</string>
+    <string name="visual">Visual</string>
+    <string name="all_icons">All icons</string>
+    <string name="similar_icons">Similar icons</string>
+    <string name="ok">Ok</string>
+    <string name="icon_label">Label</string>
+    <string name="loading">Loading, please wait</string>
+    <string name="icon_chooser">Icon chooser</string>
+    <string name="icon_search">Search for icons</string>
+
+    <string name="icon_pack_updated">Your launcher icon pack has been updated, new icons for your apps might be available.</string>
+
+    <!-- Swipe up indicator -->
+    <string name="show_swipeup_arrow">Swipe up indicator</string>
+    <string name="show_swipeup_arrow_summary">Show the swipe up arrow indicator on top of the dock</string>
+
+    <!-- Swipe down notifications -->
+    <string name="swipedown_notifications">Swipe down notifications</string>
+    <string name="swipedown_notifications_summary">Swipe down to show notifications and up to close notifications</string>
+
+    <!-- Double tap to sleep -->
+    <string name="double_tap_sleep_title">Double tap sleep</string>
+    <string name="double_tap_sleep_summary">Put device to sleep</string>
+
+    <!-- Dock visibility -->
+    <string name="show_hotseat_title">Dock icons</string>
+    <string name="show_hotseat_summary">Show the icons in the dock</string>
+
+    <!-- Preference categories -->
+    <string name="home_category_title">Home screen</string>
+    <string name="app_drawer_category_title">App drawer</string>
+    <string name="icon_category_title">App icons</string>
+    <string name="widget_category_title">Widgets</string>
+    <string name="other_category_title">Other</string>
+    <string name="other_category_summary">Miscellaneous configurations</string>
 </resources>

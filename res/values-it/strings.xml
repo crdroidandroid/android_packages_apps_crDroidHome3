@@ -147,11 +147,6 @@
     <string name="msg_disable_suggestions_prompt">"I suggerimenti non verranno mostrati in cima all'elenco delle tue app e i dati sull'utilizzo utilizzati per crearli verranno cancellati definitivamente."</string>
     <string name="label_turn_off_suggestions">DISATTIVA</string>
 
-    <!-- Preference categories -->
-    <string name="home_category_title">Home</string>
-    <string name="app_drawer_category_title">App drawer</string>
-    <string name="icon_category_title">Icone app</string>
-    <string name="widget_category_title">Widgets</string>
 
     <!-- About -->
     <string name="about_credits">Crediti</string>
@@ -166,19 +161,11 @@
     <string name="more">Altro</string>
     <string name="reset_hidden_apps_done">Tutte le apps sono ora disponibili</string>
 
-    <string name="show_swipeup_arrow">Attiva indicatore swipe</string>
-    <string name="show_swipeup_arrow_summary">Mostra una freccia sopra la dock per indicare lo swipe in alto per aprire il drawer</string>
-
     <string name="pref_show_clock_weather">Data e meteo home screen</string>
     <string name="pref_show_clock_weather_both">Mostra entrambi</string>
     <string name="pref_show_clock_weather_nothing">Nascondi entrambi</string>
     <string name="pref_show_clock_weather_clock_only">Mostra solo la data</string>
     <string name="pref_show_clock_weather_weather_only">Mostra solo il meteo</string>
-
-    <!-- Swipe up indicator -->
-    <string name="show_swipeup_arrow">Indicatore swipe</string>
-    <string name="show_swipeup_arrow_summary">Mostra la freccia sopra la dockbar per lo swipe verso l\'alto</string>
-
 
     <string name="pref_show_clock_weather">Data e meteo home screen</string>
     <string name="pref_show_clock_weather_both">Mostra data e meteo</string>
@@ -206,9 +193,34 @@
 
     <string name="icon_shape_rounded_square">Quadrato arrotondato</string>
 
-    <string name="other_category_title">Altro</string>
-    <string name="other_category_summary">Opzioni aggiuntive</string>
-
     <string name="pref_override_icon_shape_dark_bg_title">Usa sfondo scuro</string>
     <string name="pref_override_icon_shape_dark_bg_summary">Usa un colore scuro come sfondo per la forma delle icone che non hanno un proprio colore definito</string>
+
+    <!-- Icon pack -->
+    <string name="default_iconpack_title">Predefinito</string>
+    <string name="icons_pack_name">Pacchetto icone</string>
+    <string name="edit_drop_target_label">Modifica</string>
+    <string name="edit_app">Modifica</string>
+    <string name="reset_icon">Resetta</string>
+    <string name="customize">Personalizza</string>
+    <string name="visual">Visuale</string>
+    <string name="all_icons">Tutte le icone</string>
+    <string name="similar_icons">Icone simili</string>
+    <string name="ok">Ok</string>
+    <string name="icon_label">Etichetta</string>
+    <string name="loading">Caricamento, attendere prego</string>
+    <string name="icon_chooser">Scelta icona</string>
+    <string name="icon_search">Cerca icone</string>
+
+    <!-- Swipe up indicator -->
+    <string name="show_swipeup_arrow">Indicatore swipe</string>
+    <string name="show_swipeup_arrow_summary">Mostra la freccia sopra la dockbar per lo swipe verso l\'alto</string>
+
+    <!-- Preference categories -->
+    <string name="home_category_title">Home</string>
+    <string name="app_drawer_category_title">App drawer</string>
+    <string name="icon_category_title">Icone app</string>
+    <string name="widget_category_title">Widgets</string>
+    <string name="other_category_title">Altro</string>
+    <string name="other_category_summary">Opzioni aggiuntive</string>
 </resources>
