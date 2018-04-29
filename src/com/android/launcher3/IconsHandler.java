@@ -499,13 +499,13 @@ public class IconsHandler {
 
     public void showDialog(Activity activity) {
         loadAvailableIconPacks();
-        final IconAdapter adapter = new IconAdapter(mContext, mIconPacks);
+        final IconAdapter adapter = new IconAdapter(activity, mIconPacks);
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
         builder.setAdapter(adapter, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int position) {
                 String selected = adapter.getItem(position);
-                if (!PreferenceManager.getDefaultSharedPreferences(mContext).getString(Utilities.KEY_ICON_PACK, mDefaultIconPack).equals(selected)) {
+                if (!PreferenceManager.getDefaultSharedPreferences(activity).getString(Utilities.KEY_ICON_PACK, mDefaultIconPack).equals(selected)) {
                     switchIconPacks(selected);
                 }
             }
