@@ -57,7 +57,7 @@ LOCAL_PROTO_JAVA_OUTPUT_PARAMS := enum_style=java
 
 LOCAL_AAPT_FLAGS := \
     --auto-add-overlay \
-    --rename-manifest-package com.crdroid.home3 \
+    --rename-manifest-package com.google.android.apps.nexuslauncher \
     --extra-packages android.support.v7.recyclerview
 
 LOCAL_MIN_SDK_VERSION := 26
