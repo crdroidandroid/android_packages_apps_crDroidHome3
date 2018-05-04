@@ -21,7 +21,7 @@
   <!-- General -->
   <skip></skip>
   <!-- Application name -->
-  <string name="crdroidhome_app_name">crDroid Home</string>
+  <string name="crdroidhome_app_name">crDroid Başlatıcı</string>
   <string name="app_name">@string/crdroidhome_app_name</string>
   <!-- Default folder name -->
   <string name="folder_name"></string>
@@ -52,18 +52,18 @@
   <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
   <string name="widget_accessible_dims_format">%1$d genişliğinde %2$d yüksek</string>
   <!-- Message to tell the user to press and hold a widget/icon to add it  -->
-  <string name="add_item_request_drag_hint">Elle yerleştirmek için dokunun ve basılı tutun</string>
+  <string name="add_item_request_drag_hint">Elle eklemek için dokunun ve basılı tutun</string>
   <!-- Button label to automatically add icon on home screen [CHAR_LIMIT=50] -->
   <string name="place_automatically">Otomatik olarak ekle</string>
   <!-- All Apps -->
   <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_bar_hint">Uygulama ara</string>
+  <string name="all_apps_search_bar_hint">Uygulamalar ara</string>
   <!-- Loading apps text. [CHAR_LIMIT=50] -->
   <string name="all_apps_loading_message">Uygulamalar yükleniyor&#8230;</string>
   <!-- No-search-results text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_no_search_results">\"<xliff:g id="query" example="Android">%1$s</xliff:g>\" ile eşleşen uygulama bulunamadı</string>
+  <string name="all_apps_no_search_results">\"<xliff:g id="query" example="Android">%1$s</xliff:g>\" ile eşleşen uygulamalar bulunmadı</string>
   <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_market_message">Daha fazla uygulama ara</string>
+  <string name="all_apps_search_market_message">Daha fazla uygulamalar ara</string>
   <!-- Popup items -->
   <!-- Text to display as the header above notifications. [CHAR_LIMIT=30] -->
   <string name="notifications_header">Bildirimler</string>
@@ -81,13 +81,13 @@
   <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
   <string name="remove_drop_target_label">Kaldır</string>
   <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
-  <string name="uninstall_drop_target_label">Kaldır</string>
+  <string name="uninstall_drop_target_label">Kaldırma</string>
   <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
   <string name="app_info_drop_target_label">Uygulama bilgileri</string>
   <!-- Permissions: -->
   <skip></skip>
   <!-- Permission short label -->
-  <string name="permlab_install_shortcut">kısayollar yükle</string>
+  <string name="permlab_install_shortcut">kısayolları yükle</string>
   <!-- Permission description -->
   <string name="permdesc_install_shortcut">Uygulamaya, kullanıcı müdahalesi
         olmadan kısayol ekleme izni verir.</string>
@@ -95,9 +95,9 @@
   <string name="permlab_read_settings">ana ekran ayarlarını ve kısayollarını oku</string>
   <!-- Permission description -->
   <string name="permdesc_read_settings">Uygulamaya ana ekrandaki ayarları ve
-        kısayollarını okuma izni verir.</string>
+        kısayolları okuma izni verir.</string>
   <!-- Permission short label -->
-  <string name="permlab_write_settings">ana ekran ayarlarını ve kısayollarını yaz</string>
+  <string name="permlab_write_settings">ana ekran ayarlarına ve kısayollarına yaz</string>
   <!-- Permission description -->
   <string name="permdesc_write_settings">Uygulamaya, Ana ekrandaki ayarları ve
         kısayolları değiştirme izni verir.</string>
@@ -108,7 +108,7 @@
   <!-- Text to show user in place of a gadget when we can't display it properly -->
   <string name="gadget_error_text">Widget yüklenirken sorun oluştu</string>
   <!-- Text to show user in place of a gadget when it is not yet initialized. -->
-  <string name="gadget_setup_text">Kur</string>
+  <string name="gadget_setup_text">Kurulum</string>
   <!-- Text to inform the user that they can't uninstall a system application -->
   <string name="uninstall_system_app_text">Bu bir sistem uygulamasıdır ve yüklemesi kaldırılamaz.</string>
   <!-- Default folder title -->
@@ -129,7 +129,7 @@
   <!-- Instruction that clicking outside will close folder -->
   <string name="folder_tap_to_close">Klasörü kapatmak için dokunun</string>
   <!-- Instruction that clicking outside will commit folder rename -->
-  <string name="folder_tap_to_rename">Yeni adı kaydetmek için dokunun</string>
+  <string name="folder_tap_to_rename">Yeniden adlandırmayı kaydetmek için dokunun</string>
   <!-- Indication that folder closed -->
   <string name="folder_closed">Klasör kapatıldı</string>
   <!-- Folder renamed format -->
@@ -221,7 +221,7 @@
   <!-- Accessibility description to move item inside a folder. -->
   <string name="move_to_position"><xliff:g id="number" example="1">%1$s </xliff:g> konumuna taşı</string>
   <!-- Accessibility description to move item to the hotseat. -->
-  <string name="move_to_hotseat_position">Favorileri<xliff:g id="number" example="1">%1$s</xliff:g> konumuna taşı</string>
+  <string name="move_to_hotseat_position">Favorileri <xliff:g id="number" example="1">%1$s</xliff:g> konumuna taşı</string>
   <!-- Accessibility confirmation for item move. -->
   <string name="item_moved">Öğe taşındı</string>
   <!-- Accessibility description to move item into an existing folder. -->
@@ -286,7 +286,7 @@
   <string name="msg_disable_suggestions_prompt">"Öneriler, uygulama listenizin üst kısmında görünmeyecek ve bunları oluşturmak için kullanılan kullanım verileri kalıcı olarak silinecek."</string>
   <string name="label_turn_off_suggestions">KAPAT</string>
   <!-- Hidden app -->
-  <string name="hide_app">Uygulamalar gizle</string>
+  <string name="hide_app">Uygulama gizle</string>
   <string name="hide_app_sum">Uygulamaları uygulama çekmecesinde gizleyin</string>
   <string name="hide_app_selected">&#160;seçildi</string>
   <string name="hidden_app">Tüm uygulamalar</string>
@@ -326,9 +326,9 @@
     <item>altı</item>
     <item>yedi</item>
   </string-array>
-  <string name="number_of_columns_title">Izgara sütunları</string>
-  <string name="number_of_rows_title">Izgara satırları</string>
-  <string name="number_of_hotseat_title">Dock simge sayısı</string>
+  <string name="number_of_columns_title">Klavuz sütunları</string>
+  <string name="number_of_rows_title">Klavuz satırları</string>
+  <string name="number_of_hotseat_title">Alt panel simge sayısı</string>
   <string name="action_edit">Düzenle</string>
   <string name="pref_override_icon_shape_dark_bg_title">Koyu şekli kullan</string>
   <string name="pref_override_icon_shape_dark_bg_summary">Kendi şekil rengi olmayan simgeler için koyu arkaplan rengini kullanın</string>
@@ -341,7 +341,7 @@
   <string name="edit_drop_target_label">Düzenle</string>
   <string name="edit_app">Düzenle</string>
   <string name="reset_icon">Sıfırla</string>
-  <string name="customize">Özelleştir</string>
+  <string name="customize">Kişiselleştir</string>
   <string name="visual">Görsel</string>
   <string name="all_icons">Tüm simgeler</string>
   <string name="similar_icons">Benzer simgeler</string>
@@ -349,7 +349,7 @@
   <string name="icon_label">Etiket</string>
   <string name="loading">Yükleniyor, lütfen bekleyin</string>
   <string name="icon_chooser">Simge seçici</string>
-  <string name="icon_search">Simgeleri ara</string>
+  <string name="icon_search">Simge ara</string>
   <string name="icon_pack_updated">Başlatıcı simge paketiniz güncellendi, uygulamalarınız için yeni simgeler mevcut olabilir.</string>
   <!-- Swipe up indicator -->
   <string name="show_swipeup_arrow">Yukarı kaydırma göstergesi</string>
@@ -359,7 +359,7 @@
   <string name="swipedown_notifications_summary">Bildirimleri ve yakın bildirimleri kapatmak için aşağı kaydırın</string>
   <!-- Double tap to sleep -->
   <string name="double_tap_sleep_title">Çift dokunuşla uyutma</string>
-  <string name="double_tap_sleep_summary">Cihazı uyku moduna geçirin</string>
+  <string name="double_tap_sleep_summary">Cihazı uyutmak için ana ekranın boş bir alanına çift dokunun</string>
   <!-- Dock visibility -->
   <string name="show_hotseat_title">Alt panel simgeleri</string>
   <string name="show_hotseat_summary">Alt panel simgelerini gösterin</string>
