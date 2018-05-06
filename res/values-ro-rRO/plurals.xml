@@ -7,8 +7,8 @@
     <item quantity="few">%d min</item>
   </plurals>
   <plurals name="smartspace_hours">
-    <item quantity="other">%d hr</item>
+    <item quantity="other">%d ore</item>
     <item quantity="one">%d oră</item>
-    <item quantity="few">%d hr</item>
+    <item quantity="few">%d ore</item>
   </plurals>
 </resources>

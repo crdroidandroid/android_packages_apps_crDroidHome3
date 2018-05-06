@@ -130,7 +130,7 @@
   <!-- Indication that folder closed -->
   <string name="folder_closed">Dosar închis</string>
   <!-- Folder renamed format -->
-  <string name="folder_renamed">Dosar redenumit in <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+  <string name="folder_renamed">Dosar redenumit în <xliff:g id="name" example="Games">%1$s</xliff:g></string>
   <!-- Folder name format -->
   <string name="folder_name_format">Dosar: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
@@ -194,7 +194,7 @@
     The second "it" refers to the app. -->
   <string name="abandoned_promise_explanation">Aplicația pentru această pictogramă nu este instalată. Puteți să ștergeți pictograma sau să căutați aplicația și s-o instalați manual.    </string>
   <!-- Title for an app which is being downloaded. -->
-  <string name="app_downloading_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> se descarca<xliff:g id="progress" example="30%">%2$s</xliff:g> complet</string>
+  <string name="app_downloading_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> se descarcă<xliff:g id="progress" example="30%">%2$s</xliff:g> complet</string>
   <!-- Title for an app whose download has been started. -->
   <string name="app_waiting_download_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> se așteptă instalarea</string>
   <!-- Strings for widgets & more in the popup container/bottom sheet -->
@@ -250,7 +250,7 @@
   <!-- Accessibility confirmation for widget resize. -->
   <string name="widget_resized">Widgetul a fost redimensionat la lățimea <xliff:g id="number" example="2">%1$s</xliff:g> și înălțimea <xliff:g id="number" example="1">%2$s</xliff:g></string>
   <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
-  <string name="action_deep_shortcut">Scurtături</string>
+  <string name="action_deep_shortcut">Comenzi rapide</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
   <string name="shortcuts_menu_description"><xliff:g id="number_of_shortcuts" example="3">%1$d</xliff:g> comenzi rapide pentru <xliff:g id="app_name" example="Messenger">%2$s</xliff:g></string>
   <!-- Accessibility description when the shortcuts menu has notifications as well as shortcuts. -->
@@ -272,7 +272,7 @@
   <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
   <string name="msg_minus_one_on_left">Glisare spre drepta ecranului principal pentru accesare panel Google Now</string>
   <string name="about">Despre</string>
-  <string name="title_google_app">Panel Google Now</string>
+  <string name="title_google_app">Panou Google Now</string>
   <string name="title_app_suggestions">Afișează sugestiile aplicației</string>
   <string name="summary_app_suggestions">Afisare sugestii in partea de sus a listei cu toate aplicațiile</string>
   <string name="about_app_version">Versiune</string>
@@ -321,15 +321,15 @@
     <item>șase</item>
     <item>șapte</item>
   </string-array>
-  <string name="number_of_columns_title">Coloane in grid</string>
-  <string name="number_of_rows_title">Randuri in grid</string>
-  <string name="number_of_hotseat_title">Numar de pictograme in dock</string>
+  <string name="number_of_columns_title">Coloane în grilă</string>
+  <string name="number_of_rows_title">Rânduri în grilă</string>
+  <string name="number_of_hotseat_title">Număr de pictograme în dock</string>
   <string name="action_edit">Editare</string>
   <string name="pref_override_icon_shape_dark_bg_title">Utilizaţi tema întunecată</string>
   <string name="pref_override_icon_shape_dark_bg_summary">Utilizati fundal inchis pentru pictograme</string>
   <string name="smartspace_hours_mins">%1$s %2$s</string>
   <!-- Folder titles -->
-  <string name="play_folder_title">Porneste</string>
+  <string name="play_folder_title">Redare</string>
   <!-- Icon pack -->
   <string name="default_iconpack_title">Prestabilit</string>
   <string name="icons_pack_name">Pachet de pictograme</string>
@@ -364,6 +364,6 @@
   <string name="icon_category_title">Pictograme aplicatii</string>
   <string name="widget_category_title">Widget-uri</string>
   <string name="other_category_title">Diverse</string>
-  <string name="grid_category_title">Grid pictograme</string>
+  <string name="grid_category_title">Grilă pictograme</string>
   <string name="gestures_category_title">Gesturi</string>
 </resources>
