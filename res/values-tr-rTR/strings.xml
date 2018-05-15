@@ -173,7 +173,7 @@
   <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
   <string name="icon_shape_override_label">Simge şeklini değiştir</string>
   <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
-  <string name="icon_shape_system_default">Sistem varsayılanını kullan</string>
+  <string name="icon_shape_system_default">Varsayılan</string>
   <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->
   <string name="icon_shape_square">Kare</string>
   <!-- Option to change the shape of the home screen icons to a squircle. This represents the name of the shape somewhere between a circle and a square. [CHAR LIMIT=50] -->
@@ -279,7 +279,7 @@
   <string name="about">Hakkında</string>
   <string name="title_google_app">Google now paneli</string>
   <string name="title_app_suggestions">Uygulama önerileri</string>
-  <string name="summary_app_suggestions">Uygulama önerilerinizi Tüm Uygulamalar listenizin üstünde gösterir</string>
+  <string name="summary_app_suggestions">Uygulama önerilerinizi tüm uygulamalar listenizin üstünde göster</string>
   <string name="about_app_version">Sürüm</string>
   <string name="app_name_pixel_launcher">@string/crdroidhome_app_name</string>
   <string name="title_disable_suggestions_prompt">Uygulama önerileri kapatılsın mı?</string>
@@ -287,7 +287,7 @@
   <string name="label_turn_off_suggestions">KAPAT</string>
   <!-- Hidden app -->
   <string name="hide_app">Uygulama gizle</string>
-  <string name="hide_app_sum">Uygulamaları uygulama çekmecesinde gizleyin</string>
+  <string name="hide_app_sum">Uygulamaları uygulama çekmecesinde gizle</string>
   <string name="hide_app_selected">&#160;seçildi</string>
   <string name="hidden_app">Tüm uygulamalar</string>
   <string name="hide_selected">Seçilen uygulamaları gizle(s)</string>
@@ -295,7 +295,7 @@
   <string name="reset_hidden_apps">Tümünü sıfırla</string>
   <string name="reset_hidden_apps_done">Gizli uygulamalar artık mevcut</string>
   <string name="pref_show_clock_weather">Ana ekran tarihi ve hava durumu</string>
-  <string name="pref_show_clock_weather_both">Hem tarihi hem de hava durumunu göster</string>
+  <string name="pref_show_clock_weather_both">Tarihi ve hava durumunu göster</string>
   <string name="pref_show_clock_weather_nothing">Gösterme</string>
   <string name="pref_show_clock_weather_clock_only">Sadece tarihi göster</string>
   <string name="pref_show_clock_weather_weather_only">Sadece hava durumunu göster</string>
@@ -331,7 +331,7 @@
   <string name="number_of_hotseat_title">Alt panel simge sayısı</string>
   <string name="action_edit">Düzenle</string>
   <string name="pref_override_icon_shape_dark_bg_title">Koyu şekli kullan</string>
-  <string name="pref_override_icon_shape_dark_bg_summary">Kendi şekil rengi olmayan simgeler için koyu arkaplan rengini kullanın</string>
+  <string name="pref_override_icon_shape_dark_bg_summary">Kendi şekil rengi olmayan simgeler için koyu arkaplan rengini kullan</string>
   <string name="smartspace_hours_mins">%1$s %2$s</string>
   <!-- Folder titles -->
   <string name="play_folder_title">Oyun</string>
@@ -362,7 +362,7 @@
   <string name="double_tap_sleep_summary">Cihazı uyutmak için ana ekranın boş bir alanına çift dokunun</string>
   <!-- Dock visibility -->
   <string name="show_hotseat_title">Alt panel simgeleri</string>
-  <string name="show_hotseat_summary">Alt panel simgelerini gösterin</string>
+  <string name="show_hotseat_summary">Alt panel simgelerini göster</string>
   <!-- Preference categories -->
   <string name="home_category_title">Ana ekran</string>
   <string name="app_drawer_category_title">Uygulama çekmecesi</string>
