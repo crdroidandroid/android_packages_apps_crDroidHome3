@@ -270,7 +270,7 @@
   <string name="smartspace_preferences_in_settings_desc">Afisare widget cu diferite evenimente sus pe ecran principal </string>
   <string name="title_show_google_app">%1$s</string>
   <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
-  <string name="msg_minus_one_on_left">Glisare spre drepta ecranului principal pentru accesare panel Google Now</string>
+  <string name="msg_minus_one_on_left">Glisare spre drepta ecranului principal pentru accesare panou Google Now</string>
   <string name="about">Despre</string>
   <string name="title_google_app">Panou Google Now</string>
   <string name="title_app_suggestions">Afișează sugestiile aplicației</string>
@@ -281,7 +281,7 @@
   <string name="msg_disable_suggestions_prompt">"Sugestiile nu vor apărea la începutul listei de aplicații, iar datele despre utilizare folosite pentru a le crea vor fi șterse definitiv."</string>
   <string name="label_turn_off_suggestions">OPREȘTE</string>
   <!-- Hidden app -->
-  <string name="hide_app">Ascundere aplicaţie</string>
+  <string name="hide_app">Ascundere aplicaţii</string>
   <string name="hide_app_sum">Ascunde aplicații în lista aplicaţiilor</string>
   <string name="hide_app_selected">&#160;selectate</string>
   <string name="hidden_app">Toate aplicațiile</string>
@@ -289,16 +289,16 @@
   <string name="more">Mai mult</string>
   <string name="reset_hidden_apps">Resetează totul</string>
   <string name="reset_hidden_apps_done">Aplicatiile ascunse sunt disponibile</string>
-  <string name="pref_show_clock_weather">Vremea si data pe ecran principal</string>
-  <string name="pref_show_clock_weather_both">Afisare atat data cat si vremea</string>
+  <string name="pref_show_clock_weather">Vremea și data pe ecranul principal</string>
+  <string name="pref_show_clock_weather_both">Afișați atât data cât și vremea</string>
   <string name="pref_show_clock_weather_nothing">Nu se afișează</string>
-  <string name="pref_show_clock_weather_clock_only">Afisare doar data</string>
-  <string name="pref_show_clock_weather_weather_only">Afisare doar vremea</string>
+  <string name="pref_show_clock_weather_clock_only">Afișați doar data</string>
+  <string name="pref_show_clock_weather_weather_only">Afișați doar vremea</string>
   <!-- Hide/Show search bars -->
   <string name="bottom_search_bar_title">Bara de căutare de jos</string>
-  <string name="bottom_search_bar_summary">Afisare bara de cautare jos langa dock</string>
+  <string name="bottom_search_bar_summary">Afișați bara de căutare jos lângă dock</string>
   <string name="top_search_bar_title">Bara de căutare de sus</string>
-  <string name="top_search_bar_summary">Afisare bara de cautare sus</string>
+  <string name="top_search_bar_summary">Afișați bara de căutare sus</string>
   <string name="num_default">Prestabilit</string>
   <string name="num_three">Trei</string>
   <string name="num_four">Patru</string>
@@ -342,26 +342,26 @@
   <string name="similar_icons">Pictograme similare</string>
   <string name="ok">Ok</string>
   <string name="icon_label">Etichetă</string>
-  <string name="loading">Încarc, te rog aşteaptă</string>
+  <string name="loading">Se încarcă, aşteptaţi</string>
   <string name="icon_chooser">Selector pictograme</string>
-  <string name="icon_search">Caută pictograme</string>
-  <string name="icon_pack_updated">Pictogramele au fost actualizate, noi pictograme pot fi disponibile pentru aplicatii.</string>
+  <string name="icon_search">Căutare pictograme</string>
+  <string name="icon_pack_updated">Pachetul de pictograme a fost actualizat, noi pictograme pot fi disponibile pentru aplicații.</string>
   <!-- Swipe up indicator -->
-  <string name="show_swipeup_arrow">Indicator glisare in sus</string>
-  <string name="show_swipeup_arrow_summary">Afisare cursor deasupra dockului</string>
+  <string name="show_swipeup_arrow">Indicator glisare în sus</string>
+  <string name="show_swipeup_arrow_summary">Afișare cursor deasupra dockului</string>
   <!-- Swipe down notifications -->
   <string name="swipedown_notifications">Glisați în jos pentru notificări</string>
-  <string name="swipedown_notifications_summary">Glisati in jos pentru afisare notificari si in sus pentru inchidere</string>
+  <string name="swipedown_notifications_summary">Glisați în jos pentru afișare notificări și în sus pentru închidere</string>
   <!-- Double tap to sleep -->
   <string name="double_tap_sleep_title">Dublă-apăsare pentru sleep</string>
   <string name="double_tap_sleep_summary">Pune device in sleep</string>
   <!-- Dock visibility -->
   <string name="show_hotseat_title">Pictograme dock</string>
-  <string name="show_hotseat_summary">Afisare pictograme in dock</string>
+  <string name="show_hotseat_summary">Afișare pictograme în dock</string>
   <!-- Preference categories -->
   <string name="home_category_title">Ecran de pornire</string>
   <string name="app_drawer_category_title">Listă aplicații</string>
-  <string name="icon_category_title">Pictograme aplicatii</string>
+  <string name="icon_category_title">Pictograme aplicații</string>
   <string name="widget_category_title">Widget-uri</string>
   <string name="other_category_title">Diverse</string>
   <string name="grid_category_title">Grilă pictograme</string>

@@ -3,10 +3,10 @@
 <resources>
   <plurals name="smartspace_minutes">
     <item quantity="other">%d min</item>
-    <item quantity="one">%d min</item>
+    <item quantity="one">%d minuten</item>
   </plurals>
   <plurals name="smartspace_hours">
     <item quantity="other">%d hr</item>
-    <item quantity="one">%d hr</item>
+    <item quantity="one">%d uur</item>
   </plurals>
 </resources>
