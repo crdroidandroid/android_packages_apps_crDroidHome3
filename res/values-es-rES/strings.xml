@@ -324,29 +324,29 @@ Puede quitarlo o buscar la aplicación e instalarla manualmente.    </string>
   </string-array>
   <string name="number_of_columns_title">Columnas de la cuadrícula</string>
   <string name="number_of_rows_title">Filas de la cuadrícula</string>
-  <string name="number_of_hotseat_title">No. of dock icons</string>
-  <string name="action_edit">Edit</string>
-  <string name="pref_override_icon_shape_dark_bg_title">Use dark shape</string>
-  <string name="pref_override_icon_shape_dark_bg_summary">Use a dark background color for icons without their own shape color</string>
+  <string name="number_of_hotseat_title">Número de iconos del dock</string>
+  <string name="action_edit">Editar</string>
+  <string name="pref_override_icon_shape_dark_bg_title">Usar estilo oscuro</string>
+  <string name="pref_override_icon_shape_dark_bg_summary">Usar un color de fondo oscuro para los iconos sin fondo en el borde</string>
   <string name="smartspace_hours_mins">%1$s %2$s</string>
   <!-- Folder titles -->
-  <string name="play_folder_title">Play</string>
+  <string name="play_folder_title">Reproducir</string>
   <!-- Icon pack -->
-  <string name="default_iconpack_title">Default</string>
-  <string name="icons_pack_name">Icon pack</string>
-  <string name="edit_drop_target_label">Edit</string>
-  <string name="edit_app">Edit</string>
-  <string name="reset_icon">Reset</string>
-  <string name="customize">Customize</string>
-  <string name="visual">Visual</string>
-  <string name="all_icons">All icons</string>
-  <string name="similar_icons">Similar icons</string>
-  <string name="ok">Ok</string>
-  <string name="icon_label">Label</string>
-  <string name="loading">Loading, please wait</string>
-  <string name="icon_chooser">Icon chooser</string>
-  <string name="icon_search">Search for icons</string>
-  <string name="icon_pack_updated">Your launcher icon pack has been updated, new icons for your apps might be available.</string>
+  <string name="default_iconpack_title">Por defecto</string>
+  <string name="icons_pack_name">Paquete de iconos</string>
+  <string name="edit_drop_target_label">Editar</string>
+  <string name="edit_app">Editar</string>
+  <string name="reset_icon">Restablecer</string>
+  <string name="customize">Personalizar</string>
+  <string name="visual">Opciones de visualización</string>
+  <string name="all_icons">Todos los iconos</string>
+  <string name="similar_icons">Iconos parecidos</string>
+  <string name="ok">Aceptar</string>
+  <string name="icon_label">Etiqueta</string>
+  <string name="loading">Cargando, por favor espere</string>
+  <string name="icon_chooser">Selector de iconos</string>
+  <string name="icon_search">Buscar iconos</string>
+  <string name="icon_pack_updated">El paquete de iconos de tu Launcher ha sido actualizado, puede haber nuevos iconos disponibles para tus aplicaciones.</string>
   <!-- Swipe up indicator -->
   <string name="show_swipeup_arrow">Swipe up indicator</string>
   <string name="show_swipeup_arrow_summary">Show the swipe up arrow indicator on top of the dock</string>
@@ -354,17 +354,17 @@ Puede quitarlo o buscar la aplicación e instalarla manualmente.    </string>
   <string name="swipedown_notifications">Swipe down notifications</string>
   <string name="swipedown_notifications_summary">Swipe down to show notifications and up to close notifications</string>
   <!-- Double tap to sleep -->
-  <string name="double_tap_sleep_title">Double tap sleep</string>
-  <string name="double_tap_sleep_summary">Put device to sleep</string>
+  <string name="double_tap_sleep_title">Doble tap para apagar</string>
+  <string name="double_tap_sleep_summary">Poner dispositivo en suspensión</string>
   <!-- Dock visibility -->
-  <string name="show_hotseat_title">Dock icons</string>
-  <string name="show_hotseat_summary">Show the icons in the dock</string>
+  <string name="show_hotseat_title">Iconos del dock</string>
+  <string name="show_hotseat_summary">Mostrar iconos del dock</string>
   <!-- Preference categories -->
-  <string name="home_category_title">Home screen</string>
-  <string name="app_drawer_category_title">App drawer</string>
-  <string name="icon_category_title">App icons</string>
+  <string name="home_category_title">Pantalla de inicio</string>
+  <string name="app_drawer_category_title">Cajón de aplicaciones</string>
+  <string name="icon_category_title">Iconos de las aplicaciones</string>
   <string name="widget_category_title">Widgets</string>
-  <string name="other_category_title">Miscellaneous</string>
-  <string name="grid_category_title">Icons grid</string>
-  <string name="gestures_category_title">Gestures</string>
+  <string name="other_category_title">Ajustes varios</string>
+  <string name="grid_category_title">Rejilla de iconos</string>
+  <string name="gestures_category_title">Gestos</string>
 </resources>
