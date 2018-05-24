@@ -83,7 +83,7 @@
   <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
   <string name="uninstall_drop_target_label">Eltávolítás</string>
   <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
-  <string name="app_info_drop_target_label">Alkalmazás infó</string>
+  <string name="app_info_drop_target_label">Alkalmazásadatok</string>
   <!-- Permissions: -->
   <skip></skip>
   <!-- Permission short label -->
@@ -266,7 +266,7 @@
   <string name="label_search">Keresés</string>
   <string name="label_voice_search">Hangalapú keresés</string>
   <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
-  <string name="pref_icon_pack">Ikon csomag</string>
+  <string name="pref_icon_pack">Ikoncsomag</string>
   <string name="state_loading">Alkalmazás…</string>
   <string name="smartspace_preferences_in_settings">\"At a Glance\" modul</string>
   <string name="smartspace_preferences_in_settings_desc">Modul a kezdőképernyő tetején, különböző események megjelenítésére</string>
@@ -334,7 +334,7 @@
   <string name="play_folder_title">Lejátszás</string>
   <!-- Icon pack -->
   <string name="default_iconpack_title">Alapértelmezett</string>
-  <string name="icons_pack_name">Ikon csomag</string>
+  <string name="icons_pack_name">Ikoncsomag</string>
   <string name="edit_drop_target_label">Szerkesztés</string>
   <string name="edit_app">Szerkesztés</string>
   <string name="reset_icon">Alaphelyzetbe állítás</string>
@@ -358,7 +358,7 @@
   <string name="double_tap_sleep_title">Dupla érintésre alvás</string>
   <string name="double_tap_sleep_summary">Alvó üzemmód</string>
   <!-- Dock visibility -->
-  <string name="show_hotseat_title">Dokk ikonok</string>
+  <string name="show_hotseat_title">A Dokk ikonjai</string>
   <string name="show_hotseat_summary">Ikonok megjelenítése a dokkon</string>
   <!-- Preference categories -->
   <string name="home_category_title">Kezdőképernyő</string>
