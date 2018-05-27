@@ -21,7 +21,7 @@
   <!-- General -->
   <skip></skip>
   <!-- Application name -->
-  <string name="crdroidhome_app_name">crDroid Home</string>
+  <string name="crdroidhome_app_name">beranda crDroid</string>
   <string name="app_name">@string/crdroidhome_app_name</string>
   <!-- Default folder name -->
   <string name="folder_name"></string>
