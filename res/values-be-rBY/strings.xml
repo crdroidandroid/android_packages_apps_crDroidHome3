@@ -148,7 +148,7 @@
   <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
   <string name="allow_rotation_title">Арыентацыя экрану</string>
   <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-  <string name="allow_rotation_desc">Allow launcher to auto rotate accordingly</string>
+  <string name="allow_rotation_desc">Калі тэлефон павернуты</string>
   <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
   <string name="allow_rotation_blocked_desc">У наладах адключаны паварот экрана</string>
   <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
@@ -226,85 +226,85 @@
   <!-- Accessibility confirmation for item added to folder. -->
   <string name="added_to_folder">Элемент дададзены ў папку</string>
   <!-- Accessibility description to create folder with another item. -->
-  <string name="create_folder_with">Create folder with: <xliff:g id="name" example="Game">%1$s</xliff:g></string>
+  <string name="create_folder_with">Стварыць папку з элементам <xliff:g id="name">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for folder created. -->
-  <string name="folder_created">Folder created</string>
+  <string name="folder_created">Папка створана</string>
   <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_move_to_workspace">Move to Home screen</string>
+  <string name="action_move_to_workspace">Перамясціць на Галоўны экран</string>
   <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_left">Move screen to left</string>
+  <string name="action_move_screen_left">Перамясціць экран налева</string>
   <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_right">Move screen to right</string>
+  <string name="action_move_screen_right">Перамясціць экран направа</string>
   <!-- Accessibility confirmation when a screen was moved. -->
-  <string name="screen_moved">Screen moved</string>
+  <string name="screen_moved">Экран перамешчаны</string>
   <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
-  <string name="action_resize">Resize</string>
+  <string name="action_resize">Змяніць памер</string>
   <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_width">Increase width</string>
+  <string name="action_increase_width">Павялічыць шырыню</string>
   <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_height">Increase height</string>
+  <string name="action_increase_height">Павялічыць вышыню</string>
   <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_decrease_width">Decrease width</string>
+  <string name="action_decrease_width">Паменшыць шырыню</string>
   <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_decrease_height">Decrease height</string>
+  <string name="action_decrease_height">Паменшыць вышыню</string>
   <!-- Accessibility confirmation for widget resize. -->
-  <string name="widget_resized">Widget resized to width <xliff:g id="number" example="2">%1$s</xliff:g> height <xliff:g id="number" example="1">%2$s</xliff:g></string>
+  <string name="widget_resized">Памер віджэта зменены да <xliff:g id="number" example="2">%1$s</xliff:g> у шырыню і <xliff:g id="number" example="1">%2$s</xliff:g> у вышыню</string>
   <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
-  <string name="action_deep_shortcut">Shortcuts</string>
+  <string name="action_deep_shortcut">Ярлыкі</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
-  <string name="shortcuts_menu_description"><xliff:g id="number_of_shortcuts" example="3">%1$d</xliff:g> shortcuts for <xliff:g id="app_name" example="Messenger">%2$s</xliff:g></string>
+  <string name="shortcuts_menu_description">Колькасць ярлыкоў для праграм \"<xliff:g id="app_name">%2$s</xliff:g>": <xliff:g id="number_of_shortcuts">%1$d</xliff:g></string>
   <!-- Accessibility description when the shortcuts menu has notifications as well as shortcuts. -->
-  <string name="shortcuts_menu_with_notifications_description"><xliff:g id="number_of_shortcuts" example="3">%1$d</xliff:g> shortcuts and <xliff:g id="number_of_notifications" example="3">%2$d</xliff:g> notifications for <xliff:g id="app_name" example="Messenger">%3$s</xliff:g></string>
+  <string name="shortcuts_menu_with_notifications_description">Колькасць ярлыкоў для праграм \"<xliff:g id="app_name">%3$s</xliff:g>": <xliff:g id="number_of_shortcuts">%1$d</xliff:g>. Колькасць апавяшчэнняў: <xliff:g id="number_of_notifications">%2$d</xliff:g></string>
   <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
-  <string name="action_dismiss_notification">Dismiss</string>
+  <string name="action_dismiss_notification">Адхіліць</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
-  <string name="notification_dismissed">Notification dismissed</string>
+  <string name="notification_dismissed">Апавяшчэнне закрыта</string>
   <string name="icu_abbrev_wday_month_day_no_year">EEEMMMd</string>
-  <string name="smartspace_preferences">Preferences</string>
-  <string name="label_search">Search</string>
-  <string name="label_voice_search">Voice search</string>
+  <string name="smartspace_preferences">Налады</string>
+  <string name="label_search">Пошук</string>
+  <string name="label_voice_search">Галасавы пошук</string>
   <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
-  <string name="pref_icon_pack">Icon pack</string>
-  <string name="state_loading">Applying…</string>
-  <string name="smartspace_preferences_in_settings">\"At a Glance\" widget</string>
-  <string name="smartspace_preferences_in_settings_desc">Show a widget at the top of the homescreen that displays different events</string>
+  <string name="pref_icon_pack">Набор значкоў</string>
+  <string name="state_loading">Прымяненне…</string>
+  <string name="smartspace_preferences_in_settings">Дынамічны віджэт</string>
+  <string name="smartspace_preferences_in_settings_desc">Адлюстроўваць віджэт розных падзей у верхняй частцы галоўнага экрана</string>
   <string name="title_show_google_app">%1$s</string>
   <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
-  <string name="msg_minus_one_on_left">Swipe to the right on the homescreen to access Google now panel</string>
-  <string name="about">About</string>
-  <string name="title_google_app">Google now panel</string>
-  <string name="title_app_suggestions">App suggestions</string>
-  <string name="summary_app_suggestions">Show app suggestions at the top of your All Apps list</string>
-  <string name="about_app_version">Version</string>
+  <string name="msg_minus_one_on_left">Злева ад галоўнага экрана</string>
+  <string name="about">Аб праграме</string>
+  <string name="title_google_app">Праграма Google</string>
+  <string name="title_app_suggestions">Показывать прапановы</string>
+  <string name="summary_app_suggestions">У верхняй частцы спісу ўсіх праграм</string>
+  <string name="about_app_version">Версія</string>
   <string name="app_name_pixel_launcher">@string/crdroidhome_app_name</string>
-  <string name="title_disable_suggestions_prompt">Turn off app suggestions?</string>
-  <string name="msg_disable_suggestions_prompt">"Suggestions won't appear at the top of your apps list, and the usage data used to create them will be permanently erased."</string>
-  <string name="label_turn_off_suggestions">TURN OFF</string>
+  <string name="title_disable_suggestions_prompt">Не паказваць рэкамендуемыя праграмы?</string>
+  <string name="msg_disable_suggestions_prompt">"Рэкамендаваныя праграмы не будуць паказвацца ў пачатку спісу. Дадзеныя, звязаныя з гэтай функцыяй, будуць выдаленыя."</string>
+  <string name="label_turn_off_suggestions">АДКЛЮЧЫЦЬ</string>
   <!-- Hidden app -->
-  <string name="hide_app">Hide apps</string>
-  <string name="hide_app_sum">Hide apps from the app drawer</string>
-  <string name="hide_app_selected">&#160;selected</string>
-  <string name="hidden_app">All apps</string>
-  <string name="hide_selected">Hide selected app(s)</string>
-  <string name="more">More</string>
-  <string name="reset_hidden_apps">Reset all</string>
-  <string name="reset_hidden_apps_done">Hidden apps are now available</string>
-  <string name="pref_show_clock_weather">Home screen date and weather</string>
-  <string name="pref_show_clock_weather_both">Show both date and weather</string>
-  <string name="pref_show_clock_weather_nothing">Don\'t show</string>
-  <string name="pref_show_clock_weather_clock_only">Show date only</string>
-  <string name="pref_show_clock_weather_weather_only">Show weather only</string>
+  <string name="hide_app">Схаваць праграму</string>
+  <string name="hide_app_sum">Схаваць праграму ў спісе праграм</string>
+  <string name="hide_app_selected">&#160;абрана</string>
+  <string name="hidden_app">Усе праграмы</string>
+  <string name="hide_selected">Схаваць выбранныя праграмы</string>
+  <string name="more">Яшчэ</string>
+  <string name="reset_hidden_apps">Скінуць усё</string>
+  <string name="reset_hidden_apps_done">Схаваная праграмы цяпер даступныя</string>
+  <string name="pref_show_clock_weather">Надвор\'е і дата на працоўным стале</string>
+  <string name="pref_show_clock_weather_both">Адлюстроўваць і надвор\'е і дату</string>
+  <string name="pref_show_clock_weather_nothing">Не паказваць</string>
+  <string name="pref_show_clock_weather_clock_only">Адлюстроўваць толькі дату</string>
+  <string name="pref_show_clock_weather_weather_only">Адлюстроўваць толькі надвор\'е</string>
   <!-- Hide/Show search bars -->
-  <string name="bottom_search_bar_title">Bottom search bar</string>
-  <string name="bottom_search_bar_summary">Show the bottom search bar at the bottom of the dock</string>
-  <string name="top_search_bar_title">Top search bar</string>
-  <string name="top_search_bar_summary">Show the bottom search at the top of the app drawer</string>
-  <string name="num_default">Default</string>
-  <string name="num_three">Three</string>
-  <string name="num_four">Four</string>
-  <string name="num_five">Five</string>
-  <string name="num_six">Six</string>
-  <string name="num_seven">Seven</string>
+  <string name="bottom_search_bar_title">Ніжняя панэль пошуку</string>
+  <string name="bottom_search_bar_summary">Адлюстроўваць панэль пошуку ў док-бары</string>
+  <string name="top_search_bar_title">Верхняя панэль пошуку</string>
+  <string name="top_search_bar_summary">Адлюстроўваць панэль пошуку ў верхняй частцы меню праграм</string>
+  <string name="num_default">Па змаўчанні</string>
+  <string name="num_three">Тры</string>
+  <string name="num_four">Чатыры</string>
+  <string name="num_five">Пяць</string>
+  <string name="num_six">Шэсць</string>
+  <string name="num_seven">Сем</string>
   <string-array name="grid_names">
     <item>@string/num_default</item>
     <item>@string/num_three</item>
@@ -314,56 +314,56 @@
     <item>@string/num_seven</item>
   </string-array>
   <string-array name="grid_values">
-    <item>default</item>
-    <item>three</item>
-    <item>four</item>
-    <item>five</item>
-    <item>six</item>
-    <item>seven</item>
+    <item>па змаўчанні</item>
+    <item>тры</item>
+    <item>чатыры</item>
+    <item>пяць</item>
+    <item>шэсць</item>
+    <item>сем</item>
   </string-array>
-  <string name="number_of_columns_title">Grid columns</string>
-  <string name="number_of_rows_title">Grid rows</string>
-  <string name="number_of_hotseat_title">No. of dock icons</string>
-  <string name="action_edit">Edit</string>
-  <string name="pref_override_icon_shape_dark_bg_title">Use dark shape</string>
-  <string name="pref_override_icon_shape_dark_bg_summary">Use a dark background color for icons without their own shape color</string>
+  <string name="number_of_columns_title">Колькасць слупкоў</string>
+  <string name="number_of_rows_title">Колькасць радкоў</string>
+  <string name="number_of_hotseat_title">Колькасць значкоў у док-бары</string>
+  <string name="action_edit">Змяніць</string>
+  <string name="pref_override_icon_shape_dark_bg_title">Цёмны фон значкоў</string>
+  <string name="pref_override_icon_shape_dark_bg_summary">Выкарыстоўваць цёмны колер фону для значкоў без уласнага колеру</string>
   <string name="smartspace_hours_mins">%1$s %2$s</string>
   <!-- Folder titles -->
-  <string name="play_folder_title">Play</string>
+  <string name="play_folder_title">Прайграць</string>
   <!-- Icon pack -->
-  <string name="default_iconpack_title">Default</string>
-  <string name="icons_pack_name">Icon pack</string>
-  <string name="edit_drop_target_label">Edit</string>
-  <string name="edit_app">Edit</string>
-  <string name="reset_icon">Reset</string>
-  <string name="customize">Customize</string>
-  <string name="visual">Visual</string>
-  <string name="all_icons">All icons</string>
-  <string name="similar_icons">Similar icons</string>
-  <string name="ok">Ok</string>
-  <string name="icon_label">Label</string>
-  <string name="loading">Loading, please wait</string>
-  <string name="icon_chooser">Icon chooser</string>
-  <string name="icon_search">Search for icons</string>
-  <string name="icon_pack_updated">Your launcher icon pack has been updated, new icons for your apps might be available.</string>
+  <string name="default_iconpack_title">Па змаўчанні</string>
+  <string name="icons_pack_name">Набор значкоў</string>
+  <string name="edit_drop_target_label">Змяніць</string>
+  <string name="edit_app">Змяніць</string>
+  <string name="reset_icon">Скінуць</string>
+  <string name="customize">Наладзіць</string>
+  <string name="visual">Адлюстраванне</string>
+  <string name="all_icons">Усе значкі</string>
+  <string name="similar_icons">Падобныя значкі</string>
+  <string name="ok">Ок</string>
+  <string name="icon_label">Пазнака</string>
+  <string name="loading">Загрузка, калі ласка пачакайце</string>
+  <string name="icon_chooser">Выбар значка</string>
+  <string name="icon_search">Пошук значкоў</string>
+  <string name="icon_pack_updated">Пакет значкоў для вашага лаунчэра быў абноўлены, могуць быць даступныя новыя значкі.</string>
   <!-- Swipe up indicator -->
-  <string name="show_swipeup_arrow">Swipe up indicator</string>
-  <string name="show_swipeup_arrow_summary">Show the swipe up arrow indicator on top of the dock</string>
+  <string name="show_swipeup_arrow">Індыкатар адкрыцця меню праграм</string>
+  <string name="show_swipeup_arrow_summary">Адлюстроўваць індыкатар ў выглядзе стрэлкі на працоўным стале</string>
   <!-- Swipe down notifications -->
-  <string name="swipedown_notifications">Swipe down notifications</string>
-  <string name="swipedown_notifications_summary">Swipe down to show notifications and up to close notifications</string>
+  <string name="swipedown_notifications">Свайп уніз для апавяшчэнняў</string>
+  <string name="swipedown_notifications_summary">Свайп уніз для прагляду апавяшчэнняў і ўверх для закрыцця апавяшчэнняў</string>
   <!-- Double tap to sleep -->
-  <string name="double_tap_sleep_title">Double tap sleep</string>
-  <string name="double_tap_sleep_summary">Put device to sleep</string>
+  <string name="double_tap_sleep_title">Падвойны націск для сну</string>
+  <string name="double_tap_sleep_summary">Адправіць прыладу спаць</string>
   <!-- Dock visibility -->
-  <string name="show_hotseat_title">Dock icons</string>
-  <string name="show_hotseat_summary">Show the icons in the dock</string>
+  <string name="show_hotseat_title">Значкі док-бара</string>
+  <string name="show_hotseat_summary">Паказаць значкі док-бара</string>
   <!-- Preference categories -->
-  <string name="home_category_title">Home screen</string>
-  <string name="app_drawer_category_title">App drawer</string>
-  <string name="icon_category_title">App icons</string>
-  <string name="widget_category_title">Widgets</string>
-  <string name="other_category_title">Miscellaneous</string>
-  <string name="grid_category_title">Icons grid</string>
-  <string name="gestures_category_title">Gestures</string>
+  <string name="home_category_title">Галоўны экран</string>
+  <string name="app_drawer_category_title">Спіс праграм</string>
+  <string name="icon_category_title">Значкі праграм</string>
+  <string name="widget_category_title">Вiджэты</string>
+  <string name="other_category_title">Рознае</string>
+  <string name="grid_category_title">Слупкі і радкі</string>
+  <string name="gestures_category_title">Жэсты</string>
 </resources>
