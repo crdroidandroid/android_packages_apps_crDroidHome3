@@ -348,11 +348,11 @@ Puede quitarlo o buscar la aplicación e instalarla manualmente.    </string>
   <string name="icon_search">Buscar iconos</string>
   <string name="icon_pack_updated">El paquete de iconos de tu Launcher ha sido actualizado, puede haber nuevos iconos disponibles para tus aplicaciones.</string>
   <!-- Swipe up indicator -->
-  <string name="show_swipeup_arrow">Swipe up indicator</string>
-  <string name="show_swipeup_arrow_summary">Show the swipe up arrow indicator on top of the dock</string>
+  <string name="show_swipeup_arrow">Indicador de deslizamiento</string>
+  <string name="show_swipeup_arrow_summary">Mostrar la flecha de deslizamiento encima del dock</string>
   <!-- Swipe down notifications -->
-  <string name="swipedown_notifications">Swipe down notifications</string>
-  <string name="swipedown_notifications_summary">Swipe down to show notifications and up to close notifications</string>
+  <string name="swipedown_notifications">Deslize hacia abajo las notificaciones</string>
+  <string name="swipedown_notifications_summary">Deslize hacia abajo para mostrar las notificaciones y hacia arriba para cerrarlas</string>
   <!-- Double tap to sleep -->
   <string name="double_tap_sleep_title">Doble tap para apagar</string>
   <string name="double_tap_sleep_summary">Poner dispositivo en suspensión</string>
