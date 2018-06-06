@@ -45,14 +45,14 @@
   <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
   <string name="long_press_widget_to_add">&amp; gedrückt halten, um ein Widget hinzuzufügen.</string>
   <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
-  <string name="long_accessible_way_to_add">Double-tap &amp; hold to pick up a widget or use custom actions.</string>
+  <string name="long_accessible_way_to_add">Doppelklicken &amp; halten, um ein Widget aufzunehmen oder benutzerdefinierte Aktionen zu verwenden.</string>
   <!-- The format string for the dimensions of a widget in the drawer -->
   <!-- There is a special version of this format string for Farsi -->
   <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
   <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
   <string name="widget_accessible_dims_format">%1$d breit und %2$d hoch</string>
   <!-- Message to tell the user to press and hold a widget/icon to add it  -->
-  <string name="add_item_request_drag_hint">Touch &amp; hold to place manually</string>
+  <string name="add_item_request_drag_hint">Zum manuellen Verschieben gedrückt halten</string>
   <!-- Button label to automatically add icon on home screen [CHAR_LIMIT=50] -->
   <string name="place_automatically">Automatisch hinzufügen</string>
   <!-- All Apps -->
@@ -177,9 +177,9 @@
   <!-- Option to change the shape of the home screen icons to a squircle. This represents the name of the shape somewhere between a circle and a square. [CHAR LIMIT=50] -->
   <string name="icon_shape_squircle">Squircle</string>
   <!-- Option to change the shape of the home screen icons to a circle. [CHAR LIMIT=50] -->
-  <string name="icon_shape_circle">Circle</string>
+  <string name="icon_shape_circle">Kreis</string>
   <!-- Option to change the shape of the home screen icons to a teardrop. This represents the name of the shape similar to a circle with with the bottom right corner pushed out like a square [CHAR LIMIT=50] -->
-  <string name="icon_shape_teardrop">Teardrop</string>
+  <string name="icon_shape_teardrop">Tränenform</string>
   <string name="icon_shape_rounded_square">Rounded square</string>
   <!-- Message shown in the progress dialog when the icon shape override is being applied [CHAR LIMIT=100]-->
   <string name="icon_shape_override_progress">Applying icon shape changes</string>
