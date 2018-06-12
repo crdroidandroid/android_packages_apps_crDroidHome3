@@ -304,8 +304,8 @@
   <string name="num_three">Three</string>
   <string name="num_four">Four</string>
   <string name="num_five">Five</string>
-  <string name="num_six">Six</string>
-  <string name="num_seven">Seven</string>
+  <string name="num_six">ستة</string>
+  <string name="num_seven">سبعة</string>
   <string-array name="grid_names">
     <item>@string/num_default</item>
     <item>@string/num_three</item>
@@ -315,8 +315,8 @@
     <item>@string/num_seven</item>
   </string-array>
   <string-array name="grid_values">
-    <item>default</item>
-    <item>three</item>
+    <item>افتراضي</item>
+    <item>ثلاثة</item>
     <item>أربعة</item>
     <item>خمسة</item>
     <item>ستة</item>
@@ -324,9 +324,9 @@
   </string-array>
   <string name="number_of_columns_title">أعمدة الشبكة</string>
   <string name="number_of_rows_title">صفوف الشبكة</string>
-  <string name="number_of_hotseat_title">No. of dock icons</string>
-  <string name="action_edit">Edit</string>
-  <string name="pref_override_icon_shape_dark_bg_title">Use dark shape</string>
+  <string name="number_of_hotseat_title">عدد ايقونات الدرج</string>
+  <string name="action_edit">تعديل</string>
+  <string name="pref_override_icon_shape_dark_bg_title">استخدام الشكل الداكن</string>
   <string name="pref_override_icon_shape_dark_bg_summary">Use a dark background color for icons without their own shape color</string>
   <string name="smartspace_hours_mins">%1$s %2$s</string>
   <!-- Folder titles -->
