@@ -303,6 +303,10 @@ public class IconCache {
             while (c.moveToNext()) {
                 String cn = c.getString(indexComponent);
                 ComponentName component = ComponentName.unflattenFromString(cn);
+                if (component == null) {
+                    continue;
+                }
+
                 PackageInfo info = pkgInfoMap.get(component.getPackageName());
                 if (info == null) {
                     if (!ignorePackages.contains(component.getPackageName())) {
@@ -360,6 +364,9 @@ public class IconCache {
     }
 
     CacheEntry getCacheEntry(LauncherActivityInfo app) {
+        if (app == null) {
+            return null;
+        }
         final ComponentKey key = new ComponentKey(app.getComponentName(), app.getUser());
         return mCache.get(key);
     }
@@ -370,6 +377,10 @@ public class IconCache {
 
     void addCustomInfoToDataBase(Drawable icon, ItemInfo info, CharSequence title) {
         LauncherActivityInfo app = mLauncherApps.resolveActivity(info.getIntent(), info.user);
+        if (app == null) {
+            return;
+        }
+
         final ComponentKey key = new ComponentKey(app.getComponentName(), app.getUser());
         CacheEntry entry = mCache.get(key);
         PackageInfo packageInfo = null;
