@@ -8,9 +8,9 @@
     <item quantity="many">%d min</item>
   </plurals>
   <plurals name="smartspace_hours">
-    <item quantity="other">%d hr</item>
-    <item quantity="one">%d hr</item>
-    <item quantity="few">%d hr</item>
-    <item quantity="many">%d hr</item>
+    <item quantity="other">%d hod</item>
+    <item quantity="one">%d hod</item>
+    <item quantity="few">%d hod</item>
+    <item quantity="many">%d hod</item>
   </plurals>
 </resources>
