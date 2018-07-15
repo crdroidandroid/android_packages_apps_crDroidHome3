@@ -335,7 +335,7 @@
   <string name="default_iconpack_title">默认</string>
   <string name="icons_pack_name">图标包</string>
   <string name="edit_drop_target_label">编辑</string>
-  <string name="edit_hint">Icon name</string>
+  <string name="edit_hint">图标名称</string>
   <string name="edit_app">编辑</string>
   <string name="reset_icon">重置</string>
   <string name="customize">定制</string>
