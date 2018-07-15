@@ -334,6 +334,7 @@
   <string name="default_iconpack_title">Predvolený</string>
   <string name="icons_pack_name">Balíček ikon</string>
   <string name="edit_drop_target_label">Upraviť</string>
+  <string name="edit_hint">Názov ikony</string>
   <string name="edit_app">Upraviť</string>
   <string name="reset_icon">Resetovať</string>
   <string name="customize">Prispôsobiť</string>

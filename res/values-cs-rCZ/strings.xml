@@ -336,6 +336,7 @@
   <string name="default_iconpack_title">Výchozí</string>
   <string name="icons_pack_name">Balíček ikon</string>
   <string name="edit_drop_target_label">Upravit</string>
+  <string name="edit_hint">Název ikony</string>
   <string name="edit_app">Upravit</string>
   <string name="reset_icon">Resetovat</string>
   <string name="customize">Přizpůsobit</string>

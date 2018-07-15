@@ -339,6 +339,7 @@
   <string name="default_iconpack_title">Varsayılan</string>
   <string name="icons_pack_name">Simge paketi</string>
   <string name="edit_drop_target_label">Düzenle</string>
+  <string name="edit_hint">Simge adı</string>
   <string name="edit_app">Düzenle</string>
   <string name="reset_icon">Sıfırla</string>
   <string name="customize">Kişiselleştir</string>

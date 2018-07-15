@@ -334,6 +334,7 @@
   <string name="default_iconpack_title">Prestabilit</string>
   <string name="icons_pack_name">Pachet de pictograme</string>
   <string name="edit_drop_target_label">Editare</string>
+  <string name="edit_hint">Nume Pictograma</string>
   <string name="edit_app">Editare</string>
   <string name="reset_icon">Reset</string>
   <string name="customize">Personalizare</string>
