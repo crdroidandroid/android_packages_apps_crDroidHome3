@@ -28,17 +28,17 @@
   <!-- Work folder name -->
   <string name="work_folder_name">Work</string>
   <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
-  <string name="activity_not_found">App isn\'t installed.</string>
+  <string name="activity_not_found">Aplikasi tidak terpasang.</string>
   <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
-  <string name="activity_not_available">App isn\'t available</string>
+  <string name="activity_not_available">Aplikasi tidak tersedia</string>
   <!-- SafeMode shortcut error string -->
-  <string name="safemode_shortcut_error">Downloaded app disabled in Safe mode</string>
+  <string name="safemode_shortcut_error">Aplikasi yang diunduh dinonaktifkan dalam mode Aman</string>
   <!-- SafeMode widget error string -->
   <string name="safemode_widget_error">Widgets disabled in Safe mode</string>
   <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
-  <string name="shortcut_not_available">Shortcut isn\'t available</string>
+  <string name="shortcut_not_available">Pintasan tidak tersedia</string>
   <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
-  <string name="home_screen">Home screen</string>
+  <string name="home_screen">Tampilan depan</string>
   <!-- Label for showing custom action list of a shortcut or widget. [CHAR_LIMIT=30] -->
   <string name="custom_actions">Custom actions</string>
   <!-- Widgets -->
@@ -66,7 +66,7 @@
   <string name="all_apps_search_market_message">Search for more apps</string>
   <!-- Popup items -->
   <!-- Text to display as the header above notifications. [CHAR_LIMIT=30] -->
-  <string name="notifications_header">Notifications</string>
+  <string name="notifications_header">Pemberitahuan</string>
   <!-- Drag and drop -->
   <skip></skip>
   <!-- Error message when user has filled a home screen -->
@@ -77,7 +77,7 @@
   <string name="all_apps_button_label">Apps list</string>
   <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
-  <string name="all_apps_home_button_label">Home</string>
+  <string name="all_apps_home_button_label">Beranda</string>
   <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
   <string name="remove_drop_target_label">Remove</string>
   <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
@@ -144,7 +144,7 @@
   <!-- Text for settings button -->
   <string name="settings_button_text">Settings</string>
   <!-- Message shown when a feature is disabled by the administrator -->
-  <string name="msg_disabled_by_admin">Disabled by your admin</string>
+  <string name="msg_disabled_by_admin">Dinonaktifkan oleh admin</string>
   <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
   <string name="accessibility_action_overview">Overview</string>
   <!-- Strings for settings -->
@@ -171,11 +171,11 @@
   <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
   <string name="auto_add_shortcuts_description">For newly installed apps</string>
   <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
-  <string name="icon_shape_override_label">Change icon shape</string>
+  <string name="icon_shape_override_label">Ubah bentuk ikon</string>
   <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
-  <string name="icon_shape_system_default">Use system default</string>
+  <string name="icon_shape_system_default">Gunakan bawaan sistem</string>
   <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->
-  <string name="icon_shape_square">Square</string>
+  <string name="icon_shape_square">Persegi</string>
   <!-- Option to change the shape of the home screen icons to a squircle. This represents the name of the shape somewhere between a circle and a square. [CHAR LIMIT=50] -->
   <string name="icon_shape_squircle">Squircle</string>
   <!-- Option to change the shape of the home screen icons to a circle. [CHAR LIMIT=50] -->
@@ -186,11 +186,11 @@
   <!-- Message shown in the progress dialog when the icon shape override is being applied [CHAR LIMIT=100]-->
   <string name="icon_shape_override_progress">Applying icon shape changes</string>
   <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
-  <string name="package_state_unknown">Unknown</string>
+  <string name="package_state_unknown">Tidak diketahui</string>
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
-  <string name="abandoned_clean_this">Remove</string>
+  <string name="abandoned_clean_this">Hapus</string>
   <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
-  <string name="abandoned_search">Search</string>
+  <string name="abandoned_search">Telusuri</string>
   <!-- Title for abandoned promise dialog. -->
   <string name="abandoned_promises_title">This app is not installed</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
@@ -265,7 +265,7 @@
   <!-- Accessibility confirmation for notification being dismissed. -->
   <string name="notification_dismissed">Notification dismissed</string>
   <string name="icu_abbrev_wday_month_day_no_year">EEEMMMd</string>
-  <string name="smartspace_preferences">Preferences</string>
+  <string name="smartspace_preferences">Preferensi</string>
   <string name="label_search">Search</string>
   <string name="label_voice_search">Voice search</string>
   <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
@@ -305,11 +305,11 @@
   <string name="top_search_bar_title">Top search bar</string>
   <string name="top_search_bar_summary">Show the bottom search at the top of the app drawer</string>
   <string name="num_default">Default</string>
-  <string name="num_three">Three</string>
-  <string name="num_four">Four</string>
-  <string name="num_five">Five</string>
-  <string name="num_six">Six</string>
-  <string name="num_seven">Seven</string>
+  <string name="num_three">Tiga</string>
+  <string name="num_four">Empat</string>
+  <string name="num_five">Lima</string>
+  <string name="num_six">Enam</string>
+  <string name="num_seven">Tujuh</string>
   <string-array name="grid_names">
     <item>@string/num_default</item>
     <item>@string/num_three</item>
@@ -320,16 +320,16 @@
   </string-array>
   <string-array name="grid_values">
     <item>default</item>
-    <item>three</item>
-    <item>four</item>
-    <item>five</item>
-    <item>six</item>
-    <item>seven</item>
+    <item>tiga</item>
+    <item>empat</item>
+    <item>lima</item>
+    <item>enam</item>
+    <item>tujuh</item>
   </string-array>
   <string name="number_of_columns_title">Grid columns</string>
   <string name="number_of_rows_title">Grid rows</string>
   <string name="number_of_hotseat_title">No. of dock icons</string>
-  <string name="action_edit">Edit</string>
+  <string name="action_edit">Sunting</string>
   <string name="pref_override_icon_shape_dark_bg_title">Use dark shape</string>
   <string name="pref_override_icon_shape_dark_bg_summary">Use a dark background color for icons without their own shape color</string>
   <string name="smartspace_hours_mins">%1$s %2$s</string>
@@ -340,7 +340,7 @@
   <string name="icons_pack_name">Icon pack</string>
   <string name="edit_drop_target_label">Edit</string>
   <string name="edit_hint">Icon name</string>
-  <string name="edit_app">Edit</string>
+  <string name="edit_app">Sunting</string>
   <string name="reset_icon">Reset</string>
   <string name="customize">Customize</string>
   <string name="visual">Visual</string>

@@ -334,7 +334,7 @@
   <string name="default_iconpack_title">Standard</string>
   <string name="icons_pack_name">Symbolpaket</string>
   <string name="edit_drop_target_label">Bearbeiten</string>
-  <string name="edit_hint">Icon name</string>
+  <string name="edit_hint">Symbolname</string>
   <string name="edit_app">Bearbeiten</string>
   <string name="reset_icon">Zurücksetzen</string>
   <string name="customize">Anpassen</string>
