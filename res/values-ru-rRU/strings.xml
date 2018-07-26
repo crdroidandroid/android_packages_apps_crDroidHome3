@@ -334,7 +334,7 @@
   <string name="default_iconpack_title">По умолчанию</string>
   <string name="icons_pack_name">Пакет значков</string>
   <string name="edit_drop_target_label">Изменить</string>
-  <string name="edit_hint">Icon name</string>
+  <string name="edit_hint">Название значка</string>
   <string name="edit_app">Изменить</string>
   <string name="reset_icon">Сброс</string>
   <string name="customize">Настроить</string>
