@@ -26,290 +26,286 @@
   <!-- Default folder name -->
   <string name="folder_name"></string>
   <!-- Work folder name -->
-  <string name="work_folder_name">Work</string>
+  <string name="work_folder_name">Робота</string>
   <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
-  <string name="activity_not_found">App isn\'t installed.</string>
+  <string name="activity_not_found">Програму видалено.</string>
   <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
-  <string name="activity_not_available">App isn\'t available</string>
+  <string name="activity_not_available">Програма недоступна</string>
   <!-- SafeMode shortcut error string -->
-  <string name="safemode_shortcut_error">Downloaded app disabled in Safe mode</string>
+  <string name="safemode_shortcut_error">Завантажену програму вимкнено в Безпечному режимі</string>
   <!-- SafeMode widget error string -->
-  <string name="safemode_widget_error">Widgets disabled in Safe mode</string>
+  <string name="safemode_widget_error">Віджети вимкнено в Безпечному режимі</string>
   <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
-  <string name="shortcut_not_available">Shortcut isn\'t available</string>
+  <string name="shortcut_not_available">Ярлик недоступний</string>
   <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
-  <string name="home_screen">Home screen</string>
+  <string name="home_screen">Головний екран</string>
   <!-- Label for showing custom action list of a shortcut or widget. [CHAR_LIMIT=30] -->
-  <string name="custom_actions">Custom actions</string>
+  <string name="custom_actions">Спеціальні дії</string>
   <!-- Widgets -->
   <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
-  <string name="long_press_widget_to_add">Touch &amp; hold to pick up a widget.</string>
+  <string name="long_press_widget_to_add">Щоб вибрати віджет, натисніть на значок і утримуйте його.</string>
   <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
-  <string name="long_accessible_way_to_add">Double-tap &amp; hold to pick up a widget or use custom actions.</string>
+  <string name="long_accessible_way_to_add">Щоб вибрати віджет або використовувати спеціальні дії, двічі натисніть на нього і не відпускайте.</string>
   <!-- The format string for the dimensions of a widget in the drawer -->
   <!-- There is a special version of this format string for Farsi -->
   <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
   <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
-  <string name="widget_accessible_dims_format">%1$d wide by %2$d high</string>
+  <string name="widget_accessible_dims_format">Ширина %1$d, висота %2$d</string>
   <!-- Message to tell the user to press and hold a widget/icon to add it  -->
-  <string name="add_item_request_drag_hint">Touch &amp; hold to place manually</string>
+  <string name="add_item_request_drag_hint">Натисніть і утримуйте, щоб додати вручну</string>
   <!-- Button label to automatically add icon on home screen [CHAR_LIMIT=50] -->
-  <string name="place_automatically">Add automatically</string>
+  <string name="place_automatically">Додати автоматично</string>
   <!-- All Apps -->
   <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_bar_hint">Search apps</string>
+  <string name="all_apps_search_bar_hint">Пошук програм</string>
   <!-- Loading apps text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_loading_message">Loading apps&#8230;</string>
+  <string name="all_apps_loading_message">Завантаження програм&#8230;</string>
   <!-- No-search-results text. [CHAR_LIMIT=50] -->
-  <string name="all_apps_no_search_results">No apps found matching \"<xliff:g id="query" example="Android">%1$s</xliff:g>\"</string>
+  <string name="all_apps_no_search_results">За запитом \"<xliff:g id="query" example="Android">%1$s</xliff:g>\" нічого не знайдено</string>
   <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
-  <string name="all_apps_search_market_message">Search for more apps</string>
+  <string name="all_apps_search_market_message">Шукати інші програми</string>
   <!-- Popup items -->
   <!-- Text to display as the header above notifications. [CHAR_LIMIT=30] -->
-  <string name="notifications_header">Notifications</string>
+  <string name="notifications_header">Сповіщення</string>
   <!-- Drag and drop -->
   <skip></skip>
   <!-- Error message when user has filled a home screen -->
-  <string name="out_of_space">No more room on this Home screen.</string>
+  <string name="out_of_space">На цьому екрані немає вільного місця.</string>
   <!-- Error message when user has filled the hotseat -->
-  <string name="hotseat_out_of_space">No more room in the Favorites tray</string>
+  <string name="hotseat_out_of_space">В розділі \"Обране\" немає вільного місця</string>
   <!-- All applications label -->
-  <string name="all_apps_button_label">Apps list</string>
+  <string name="all_apps_button_label">Перелік програм</string>
   <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
-  <string name="all_apps_home_button_label">Home</string>
+  <string name="all_apps_home_button_label">Головна</string>
   <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
-  <string name="remove_drop_target_label">Remove</string>
+  <string name="remove_drop_target_label">Забрати</string>
   <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
-  <string name="uninstall_drop_target_label">Uninstall</string>
+  <string name="uninstall_drop_target_label">Видалити</string>
   <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
-  <string name="app_info_drop_target_label">App info</string>
+  <string name="app_info_drop_target_label">Про програму</string>
   <!-- Permissions: -->
   <skip></skip>
   <!-- Permission short label -->
-  <string name="permlab_install_shortcut">install shortcuts</string>
+  <string name="permlab_install_shortcut">створення ярликів</string>
   <!-- Permission description -->
-  <string name="permdesc_install_shortcut">Allows an app to add
-        shortcuts without user intervention.</string>
+  <string name="permdesc_install_shortcut">Дозволити програмі створювати ярлики без відома користувача.</string>
   <!-- Permission short label -->
-  <string name="permlab_read_settings">read Home settings and shortcuts</string>
+  <string name="permlab_read_settings">зчитувати налаштування і ярлики Головного екрану</string>
   <!-- Permission description -->
-  <string name="permdesc_read_settings">Allows the app to read the settings and
-        shortcuts in Home.</string>
+  <string name="permdesc_read_settings">Дозволити програмі зчитувати налаштування і ярлики на Головній сторінці.</string>
   <!-- Permission short label -->
-  <string name="permlab_write_settings">write Home settings and shortcuts</string>
+  <string name="permlab_write_settings">записувати налаштування і ярлики на Головній сторінці</string>
   <!-- Permission description -->
-  <string name="permdesc_write_settings">Allows the app to change the settings and
-        shortcuts in Home.</string>
+  <string name="permdesc_write_settings">Дозволити програмі змінювати налаштування і ярлики на Головній сторінці.</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
-  <string name="msg_no_phone_permission"><xliff:g id="app_name" example="Pixel Launcher">%1$s</xliff:g> is not allowed to make phone calls</string>
+  <string name="msg_no_phone_permission">Програма <xliff:g id="app_name" example="Pixel Launcher">%1$s</xliff:g> не може здійснювати телефонні дзвінки</string>
   <!-- Widgets: -->
   <skip></skip>
   <!-- Text to show user in place of a gadget when we can't display it properly -->
-  <string name="gadget_error_text">Problem loading widget</string>
+  <string name="gadget_error_text">Не вдалося завантажити віджет</string>
   <!-- Text to show user in place of a gadget when it is not yet initialized. -->
-  <string name="gadget_setup_text">Setup</string>
+  <string name="gadget_setup_text">Налаштування</string>
   <!-- Text to inform the user that they can't uninstall a system application -->
-  <string name="uninstall_system_app_text">This is a system app and can\'t be uninstalled.</string>
+  <string name="uninstall_system_app_text">Це системна програма, її не можна видалити.</string>
   <!-- Default folder title -->
-  <string name="folder_hint_text">Unnamed Folder</string>
+  <string name="folder_hint_text">Папка без назви</string>
   <!-- Accessibility -->
   <!-- The format string for when an app is temporarily disabled. -->
-  <string name="disabled_app_label">Disabled <xliff:g id="app_name" example="Messenger">%1$s</xliff:g></string>
+  <string name="disabled_app_label">Програму <xliff:g id="app_name" example="Messenger">%1$s</xliff:g> вимкнено</string>
   <skip></skip>
   <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
-  <string name="default_scroll_format">Page %1$d of %2$d</string>
+  <string name="default_scroll_format">Стор. %1$d з %2$d</string>
   <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
-  <string name="workspace_scroll_format">Home screen %1$d of %2$d</string>
+  <string name="workspace_scroll_format">Головний екран %1$d з %2$d</string>
   <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
-  <string name="workspace_new_page">New home screen page</string>
+  <string name="workspace_new_page">Новий екран</string>
   <!-- Folder accessibility -->
   <!-- The format string for when a folder is opened, speaks the dimensions -->
-  <string name="folder_opened">Folder opened, <xliff:g id="width" example="5">%1$d</xliff:g> by <xliff:g id="height" example="3">%2$d</xliff:g></string>
+  <string name="folder_opened">Папка відкрита, <xliff:g id="width" example="5">%1$d</xliff:g> х <xliff:g id="height" example="3">%2$d</xliff:g></string>
   <!-- Instruction that clicking outside will close folder -->
-  <string name="folder_tap_to_close">Tap to close folder</string>
+  <string name="folder_tap_to_close">Натисніть, щоб закрити папку</string>
   <!-- Instruction that clicking outside will commit folder rename -->
-  <string name="folder_tap_to_rename">Tap to save rename</string>
+  <string name="folder_tap_to_rename">Натисніть, щоб підтвердити перейменування</string>
   <!-- Indication that folder closed -->
-  <string name="folder_closed">Folder closed</string>
+  <string name="folder_closed">Папка закрита</string>
   <!-- Folder renamed format -->
-  <string name="folder_renamed">Folder renamed to <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+  <string name="folder_renamed">Папку перейменовано в <xliff:g id="name" example="Games">%1$s</xliff:g></string>
   <!-- Folder name format -->
-  <string name="folder_name_format">Folder: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+  <string name="folder_name_format">Папка: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
-  <string name="widget_button_text">Widgets</string>
+  <string name="widget_button_text">Віджети</string>
   <!-- Text for wallpaper change button -->
-  <string name="wallpaper_button_text">Wallpapers</string>
+  <string name="wallpaper_button_text">Шпалери</string>
   <!-- Text for settings button -->
-  <string name="settings_button_text">Settings</string>
+  <string name="settings_button_text">Налаштування</string>
   <!-- Message shown when a feature is disabled by the administrator -->
-  <string name="msg_disabled_by_admin">Disabled by your admin</string>
+  <string name="msg_disabled_by_admin">Функцію вимкнено адміністратором</string>
   <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
-  <string name="accessibility_action_overview">Overview</string>
+  <string name="accessibility_action_overview">Огляд</string>
   <!-- Strings for settings -->
   <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-  <string name="allow_rotation_title">Screen orientation</string>
+  <string name="allow_rotation_title">Орієнтація екрану</string>
   <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-  <string name="allow_rotation_desc">Allow launcher to auto rotate accordingly</string>
+  <string name="allow_rotation_desc">Коли телефон повернуто</string>
   <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
-  <string name="allow_rotation_blocked_desc">Current Display setting doesn\'t permit rotation</string>
+  <string name="allow_rotation_blocked_desc">В налаштуваннях вимкнено поворот екрану</string>
   <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
-  <string name="icon_badging_title">Notification dots</string>
+  <string name="icon_badging_title">Значки сповіщень</string>
   <!-- Text to indicate that the system icon badging setting is on [CHAR LIMIT=100] -->
-  <string name="icon_badging_desc_on">On</string>
+  <string name="icon_badging_desc_on">Увімк.</string>
   <!-- Text to indicate that the system icon badging setting is off [CHAR LIMIT=100] -->
-  <string name="icon_badging_desc_off">Off</string>
+  <string name="icon_badging_desc_off">Вимк.</string>
   <!-- Title for the dialog shown when the app does not has notification access, explaining the requirement for notification access [CHAR LIMIT=50] -->
-  <string name="title_missing_notification_access">Notification access needed</string>
+  <string name="title_missing_notification_access">Немає доступу до сповіщень</string>
   <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
-  <string name="msg_missing_notification_access">To show Notification Dots, turn on app notifications for <xliff:g id="name" example="My App">%1$s</xliff:g></string>
+  <string name="msg_missing_notification_access">Щоб показувались значки сповіщень, увімкніть сповіщення в програмі \"<xliff:g id="name">%1$s</xliff:g>\"
+ </string>
   <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
-  <string name="title_change_settings">Change settings</string>
+  <string name="title_change_settings">Змінити налаштування</string>
   <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=40] -->
-  <string name="auto_add_shortcuts_label">Add icon to Home screen</string>
+  <string name="auto_add_shortcuts_label">Додавати значки</string>
   <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
-  <string name="auto_add_shortcuts_description">For newly installed apps</string>
+  <string name="auto_add_shortcuts_description">Додавати значки встановлених програм на головний екран</string>
   <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
-  <string name="icon_shape_override_label">Change icon shape</string>
+  <string name="icon_shape_override_label">Змінити форму значків</string>
   <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
-  <string name="icon_shape_system_default">Use system default</string>
+  <string name="icon_shape_system_default">Використовувати системні налаштування за замовчуванням</string>
   <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->
-  <string name="icon_shape_square">Square</string>
+  <string name="icon_shape_square">Квадрат</string>
   <!-- Option to change the shape of the home screen icons to a squircle. This represents the name of the shape somewhere between a circle and a square. [CHAR LIMIT=50] -->
-  <string name="icon_shape_squircle">Squircle</string>
+  <string name="icon_shape_squircle">Квадрат із заокругленими кутами</string>
   <!-- Option to change the shape of the home screen icons to a circle. [CHAR LIMIT=50] -->
-  <string name="icon_shape_circle">Circle</string>
+  <string name="icon_shape_circle">Коло</string>
   <!-- Option to change the shape of the home screen icons to a teardrop. This represents the name of the shape similar to a circle with with the bottom right corner pushed out like a square [CHAR LIMIT=50] -->
-  <string name="icon_shape_teardrop">Teardrop</string>
-  <string name="icon_shape_rounded_square">Rounded square</string>
+  <string name="icon_shape_teardrop">Капля</string>
+  <string name="icon_shape_rounded_square">Квадрат із заокругленими кутами</string>
   <!-- Message shown in the progress dialog when the icon shape override is being applied [CHAR LIMIT=100]-->
-  <string name="icon_shape_override_progress">Applying icon shape changes</string>
+  <string name="icon_shape_override_progress">Застосування змін...</string>
   <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
-  <string name="package_state_unknown">Unknown</string>
+  <string name="package_state_unknown">Невідомо</string>
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
-  <string name="abandoned_clean_this">Remove</string>
+  <string name="abandoned_clean_this">Видалити</string>
   <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
-  <string name="abandoned_search">Search</string>
+  <string name="abandoned_search">Знайти</string>
   <!-- Title for abandoned promise dialog. -->
-  <string name="abandoned_promises_title">This app is not installed</string>
+  <string name="abandoned_promises_title">Програму не встановлено</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
-  <string name="abandoned_promise_explanation">The app for this icon isn\'t installed.
-        You can remove it, or search for the app and install it manually.
-    </string>
+  <string name="abandoned_promise_explanation">Програму для цього значка не встановлено. Ви можете видалити значок або знайти програму і встановити її вручну.</string>
   <!-- Title for an app which is being downloaded. -->
-  <string name="app_downloading_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> downloading, <xliff:g id="progress" example="30%">%2$s</xliff:g> complete</string>
+  <string name="app_downloading_title">Завантаження <xliff:g id="name" example="Messenger">%1$s</xliff:g> (<xliff:g id="progress" example="30%">%2$s</xliff:g>)</string>
   <!-- Title for an app whose download has been started. -->
-  <string name="app_waiting_download_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> waiting to install</string>
+  <string name="app_waiting_download_title">Очікування встановлення <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
   <!-- Strings for widgets & more in the popup container/bottom sheet -->
   <!-- Title for a bottom sheet that shows widgets for a particular app -->
-  <string name="widgets_bottom_sheet_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> widgets</string>
+  <string name="widgets_bottom_sheet_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> віджети</string>
   <!-- Strings for accessibility actions -->
   <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_add_to_workspace">Add to Home screen</string>
+  <string name="action_add_to_workspace">Додати на головний екран</string>
   <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
-  <string name="action_move_here">Move item here</string>
+  <string name="action_move_here">Перемістити елемент сюди</string>
   <!-- Accessibility confirmation for item added to workspace. -->
-  <string name="item_added_to_workspace">Item added to home screen</string>
+  <string name="item_added_to_workspace">Елемент додано на головний екран</string>
   <!-- Accessibility confirmation for item removed. -->
-  <string name="item_removed">Item removed</string>
+  <string name="item_removed">Елемент видалено</string>
   <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
-  <string name="action_move">Move item</string>
+  <string name="action_move">Перемістити елемент</string>
   <!-- Accessibility description to move item to empty cell. -->
-  <string name="move_to_empty_cell">Move to row <xliff:g id="number" example="1">%1$s</xliff:g> column <xliff:g id="number" example="1">%2$s</xliff:g></string>
+  <string name="move_to_empty_cell">Перемістити в рядок <xliff:g id="number" example="1">%1$s</xliff:g> стовбець <xliff:g id="number" example="1">%2$s</xliff:g></string>
   <!-- Accessibility description to move item inside a folder. -->
-  <string name="move_to_position">Move to position <xliff:g id="number" example="1">%1$s</xliff:g></string>
+  <string name="move_to_position">Перемістити на позицію <xliff:g id="number" example="1">%1$s</xliff:g></string>
   <!-- Accessibility description to move item to the hotseat. -->
-  <string name="move_to_hotseat_position">Move to favorites position <xliff:g id="number" example="1">%1$s</xliff:g></string>
+  <string name="move_to_hotseat_position">Перемістити в Обране (<xliff:g id="number" example="1">%1$s</xliff:g>)</string>
   <!-- Accessibility confirmation for item move. -->
-  <string name="item_moved">Item moved</string>
+  <string name="item_moved">Елемент переміщено</string>
   <!-- Accessibility description to move item into an existing folder. -->
-  <string name="add_to_folder">Add to folder: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+  <string name="add_to_folder">Додати в папку <xliff:g id="name" example="Ігри">%1$s</xliff:g></string>
   <!-- Accessibility description to move item into an existing folder containing an app. -->
-  <string name="add_to_folder_with_app">Add to folder with <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
+  <string name="add_to_folder_with_app">Додати в папку з програмою <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for item added to folder. -->
-  <string name="added_to_folder">Item added to folder</string>
+  <string name="added_to_folder">Елемент додано в папку</string>
   <!-- Accessibility description to create folder with another item. -->
-  <string name="create_folder_with">Create folder with: <xliff:g id="name" example="Game">%1$s</xliff:g></string>
+  <string name="create_folder_with">Створити папку з елементом <xliff:g id="name" example="Гра">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for folder created. -->
-  <string name="folder_created">Folder created</string>
+  <string name="folder_created">Папку створено</string>
   <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_move_to_workspace">Move to Home screen</string>
+  <string name="action_move_to_workspace">Перемістити на головний екран</string>
   <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_left">Move screen to left</string>
+  <string name="action_move_screen_left">Перемістити екран вліво</string>
   <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_right">Move screen to right</string>
+  <string name="action_move_screen_right">Перемістити екран вправо</string>
   <!-- Accessibility confirmation when a screen was moved. -->
-  <string name="screen_moved">Screen moved</string>
+  <string name="screen_moved">Екран переміщено</string>
   <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
-  <string name="action_resize">Resize</string>
+  <string name="action_resize">Змінити розмір</string>
   <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_width">Increase width</string>
+  <string name="action_increase_width">Збільшити ширину</string>
   <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_height">Increase height</string>
+  <string name="action_increase_height">Збільшити висоту</string>
   <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_decrease_width">Decrease width</string>
+  <string name="action_decrease_width">Зменшити ширину</string>
   <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_decrease_height">Decrease height</string>
+  <string name="action_decrease_height">Зменшити висоту</string>
   <!-- Accessibility confirmation for widget resize. -->
-  <string name="widget_resized">Widget resized to width <xliff:g id="number" example="2">%1$s</xliff:g> height <xliff:g id="number" example="1">%2$s</xliff:g></string>
+  <string name="widget_resized">Розмір віджету змінено до <xliff:g id="number" example="2">%1$s</xliff:g> в ширину і <xliff:g id="number" example="1">%2$s</xliff:g> в висоту</string>
   <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
-  <string name="action_deep_shortcut">Shortcuts</string>
+  <string name="action_deep_shortcut">Ярлики</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
-  <string name="shortcuts_menu_description"><xliff:g id="number_of_shortcuts" example="3">%1$d</xliff:g> shortcuts for <xliff:g id="app_name" example="Messenger">%2$s</xliff:g></string>
+  <string name="shortcuts_menu_description">Кількість ярликів для програми \"<xliff:g id="number_of_shortcuts" example="3">%1$d</xliff:g>": <xliff:g id="app_name" example="Messenger">%2$s</xliff:g></string>
   <!-- Accessibility description when the shortcuts menu has notifications as well as shortcuts. -->
-  <string name="shortcuts_menu_with_notifications_description"><xliff:g id="number_of_shortcuts" example="3">%1$d</xliff:g> shortcuts and <xliff:g id="number_of_notifications" example="3">%2$d</xliff:g> notifications for <xliff:g id="app_name" example="Messenger">%3$s</xliff:g></string>
+  <string name="shortcuts_menu_with_notifications_description">Кількість ярликів для програми \"<xliff:g id="app_name">%3$s</xliff:g>": <xliff:g id="number_of_shortcuts">%1$d</xliff:g>. Кількість сповіщень: <xliff:g id="number_of_notifications">%2$d</xliff:g></string>
   <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
-  <string name="action_dismiss_notification">Dismiss</string>
+  <string name="action_dismiss_notification">Відхилити</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
-  <string name="notification_dismissed">Notification dismissed</string>
+  <string name="notification_dismissed">Сповіщення закрито</string>
   <string name="icu_abbrev_wday_month_day_no_year">EEEMMMd</string>
-  <string name="smartspace_preferences">Preferences</string>
-  <string name="label_search">Search</string>
-  <string name="label_voice_search">Voice search</string>
+  <string name="smartspace_preferences">Налаштування</string>
+  <string name="label_search">Пошук</string>
+  <string name="label_voice_search">Голосовий пошук</string>
   <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
-  <string name="pref_icon_pack">Icon pack</string>
-  <string name="state_loading">Applying…</string>
-  <string name="smartspace_preferences_in_settings">\"At a Glance\" widget</string>
-  <string name="smartspace_preferences_in_settings_desc">Show a widget at the top of the homescreen that displays different events</string>
+  <string name="pref_icon_pack">Набір значків</string>
+  <string name="state_loading">Застосування…</string>
+  <string name="smartspace_preferences_in_settings">Динамічний віджет</string>
+  <string name="smartspace_preferences_in_settings_desc">Відображати віджет різних подій в верхній частині головного екрану</string>
   <string name="title_show_google_app">%1$s</string>
   <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
-  <string name="msg_minus_one_on_left">Swipe to the right on the homescreen to access Google now panel</string>
-  <string name="about">About</string>
-  <string name="title_google_app">Google now panel</string>
-  <string name="title_app_suggestions">App suggestions</string>
-  <string name="summary_app_suggestions">Show app suggestions at the top of your All Apps list</string>
-  <string name="about_app_version">Version</string>
+  <string name="msg_minus_one_on_left">Потягніть праворуч на головному екрані щоб відкрити панель Google Now</string>
+  <string name="about">Про програму</string>
+  <string name="title_google_app">Програма Google</string>
+  <string name="title_app_suggestions">Показувати рекомендовані програми</string>
+  <string name="summary_app_suggestions">Показувати рекомендовані програми зверху всіх програм</string>
+  <string name="about_app_version">Версія</string>
   <string name="app_name_pixel_launcher">@string/crdroidhome_app_name</string>
-  <string name="title_disable_suggestions_prompt">Turn off app suggestions?</string>
-  <string name="msg_disable_suggestions_prompt">"Suggestions won't appear at the top of your apps list, and the usage data used to create them will be permanently erased."</string>
-  <string name="label_turn_off_suggestions">TURN OFF</string>
+  <string name="title_disable_suggestions_prompt">Не показувати рекомендовані програми?</string>
+  <string name="msg_disable_suggestions_prompt">"Рекомендовані програми не будуть показуватися на початку списку. Дані, пов'язані з цією функцією, будуть назавжди видалені."</string>
+  <string name="label_turn_off_suggestions">ВИМКНУТИ</string>
   <!-- Hidden app -->
-  <string name="hide_app">Hide apps</string>
-  <string name="hide_app_sum">Hide apps from the app drawer</string>
-  <string name="hide_app_selected">&#160;selected</string>
-  <string name="hidden_app">All apps</string>
-  <string name="hide_selected">Hide selected app(s)</string>
-  <string name="more">More</string>
-  <string name="reset_hidden_apps">Reset all</string>
-  <string name="reset_hidden_apps_done">Hidden apps are now available</string>
-  <string name="pref_show_clock_weather">Home screen date and weather</string>
-  <string name="pref_show_clock_weather_both">Show both date and weather</string>
-  <string name="pref_show_clock_weather_nothing">Don\'t show</string>
-  <string name="pref_show_clock_weather_clock_only">Show date only</string>
-  <string name="pref_show_clock_weather_weather_only">Show weather only</string>
+  <string name="hide_app">Приховати програми</string>
+  <string name="hide_app_sum">Приховати програми з меню програм</string>
+  <string name="hide_app_selected">&#160;вибрано</string>
+  <string name="hidden_app">Всі програми</string>
+  <string name="hide_selected">Приховати вибрані програми</string>
+  <string name="more">Більше</string>
+  <string name="reset_hidden_apps">Скинути</string>
+  <string name="reset_hidden_apps_done">Приховані програми тепер показуються</string>
+  <string name="pref_show_clock_weather">Погода і дата на головному екрані</string>
+  <string name="pref_show_clock_weather_both">Показувати і погоду і дату</string>
+  <string name="pref_show_clock_weather_nothing">Не показувати</string>
+  <string name="pref_show_clock_weather_clock_only">Показувати тільки дату</string>
+  <string name="pref_show_clock_weather_weather_only">Показувати тільки погоду</string>
   <!-- Hide/Show search bars -->
-  <string name="bottom_search_bar_title">Bottom search bar</string>
-  <string name="bottom_search_bar_summary">Show the bottom search bar at the bottom of the dock</string>
-  <string name="top_search_bar_title">Top search bar</string>
-  <string name="top_search_bar_summary">Show the bottom search at the top of the app drawer</string>
-  <string name="num_default">Default</string>
-  <string name="num_three">Three</string>
-  <string name="num_four">Four</string>
-  <string name="num_five">Five</string>
-  <string name="num_six">Six</string>
-  <string name="num_seven">Seven</string>
+  <string name="bottom_search_bar_title">Нижня панель пошуку</string>
+  <string name="bottom_search_bar_summary">Показувати панель пошуку внизу док-панелі</string>
+  <string name="top_search_bar_title">Верхня панель пошуку</string>
+  <string name="top_search_bar_summary">Показувати панель пошуку в верхній частині меню програм</string>
+  <string name="num_default">За замовчуванням</string>
+  <string name="num_three">Три</string>
+  <string name="num_four">Чотири</string>
+  <string name="num_five">П\'ять</string>
+  <string name="num_six">Шість</string>
+  <string name="num_seven">Сім</string>
   <string-array name="grid_names">
     <item>@string/num_default</item>
     <item>@string/num_three</item>
@@ -319,57 +315,57 @@
     <item>@string/num_seven</item>
   </string-array>
   <string-array name="grid_values">
-    <item>default</item>
-    <item>three</item>
-    <item>four</item>
-    <item>five</item>
-    <item>six</item>
-    <item>seven</item>
+    <item>за замовчуванням</item>
+    <item>три</item>
+    <item>чотири</item>
+    <item>п\'ять</item>
+    <item>шість</item>
+    <item>сім</item>
   </string-array>
-  <string name="number_of_columns_title">Grid columns</string>
-  <string name="number_of_rows_title">Grid rows</string>
-  <string name="number_of_hotseat_title">No. of dock icons</string>
-  <string name="action_edit">Edit</string>
-  <string name="pref_override_icon_shape_dark_bg_title">Use dark shape</string>
-  <string name="pref_override_icon_shape_dark_bg_summary">Use a dark background color for icons without their own shape color</string>
+  <string name="number_of_columns_title">Кількість стовбців</string>
+  <string name="number_of_rows_title">Кількість рядків</string>
+  <string name="number_of_hotseat_title">Кількість значків в док-панелі</string>
+  <string name="action_edit">Змінити</string>
+  <string name="pref_override_icon_shape_dark_bg_title">Темний фон значків</string>
+  <string name="pref_override_icon_shape_dark_bg_summary">Використовувати темний фон для значків, які не мають власного кольору</string>
   <string name="smartspace_hours_mins">%1$s %2$s</string>
   <!-- Folder titles -->
-  <string name="play_folder_title">Play</string>
+  <string name="play_folder_title">Грати</string>
   <!-- Icon pack -->
-  <string name="default_iconpack_title">Default</string>
-  <string name="icons_pack_name">Icon pack</string>
-  <string name="edit_drop_target_label">Edit</string>
-  <string name="edit_hint">Icon name</string>
-  <string name="edit_app">Edit</string>
-  <string name="reset_icon">Reset</string>
-  <string name="customize">Customize</string>
-  <string name="visual">Visual</string>
-  <string name="all_icons">All icons</string>
-  <string name="similar_icons">Similar icons</string>
-  <string name="ok">Ok</string>
-  <string name="icon_label">Label</string>
-  <string name="loading">Loading, please wait</string>
-  <string name="icon_chooser">Icon chooser</string>
-  <string name="icon_search">Search for icons</string>
-  <string name="icon_pack_updated">Your launcher icon pack has been updated, new icons for your apps might be available.</string>
+  <string name="default_iconpack_title">За замовчуванням</string>
+  <string name="icons_pack_name">Набір значків</string>
+  <string name="edit_drop_target_label">Змінити</string>
+  <string name="edit_hint">Назва значка</string>
+  <string name="edit_app">Змінити</string>
+  <string name="reset_icon">Скинути</string>
+  <string name="customize">Налаштувати</string>
+  <string name="visual">Відображення</string>
+  <string name="all_icons">Всі значки</string>
+  <string name="similar_icons">Схожі значки</string>
+  <string name="ok">Ок</string>
+  <string name="icon_label">Позначка</string>
+  <string name="loading">Завантаження, будь ласка, зачекайте</string>
+  <string name="icon_chooser">Вибір значка</string>
+  <string name="icon_search">Пошук значків</string>
+  <string name="icon_pack_updated">Пакет значків для вашого лаунчера було оновлено, тому можуть з\'явитися нові значки.</string>
   <!-- Swipe up indicator -->
-  <string name="show_swipeup_arrow">Swipe up indicator</string>
-  <string name="show_swipeup_arrow_summary">Show the swipe up arrow indicator on top of the dock</string>
+  <string name="show_swipeup_arrow">Індикатор відкриття меню програм</string>
+  <string name="show_swipeup_arrow_summary">Відображати індикатор у вигляді стрілки на робочому столі</string>
   <!-- Swipe down notifications -->
-  <string name="swipedown_notifications">Swipe down notifications</string>
-  <string name="swipedown_notifications_summary">Swipe down to show notifications and up to close notifications</string>
+  <string name="swipedown_notifications">Свайп вниз для шторки сповіщень</string>
+  <string name="swipedown_notifications_summary">Свайп вниз для перегляду сповіщень і свайп вгору для закриття сповіщень</string>
   <!-- Double tap to sleep -->
-  <string name="double_tap_sleep_title">Double tap sleep</string>
-  <string name="double_tap_sleep_summary">Put device to sleep</string>
+  <string name="double_tap_sleep_title">Подвійний натиск для сну</string>
+  <string name="double_tap_sleep_summary">Відправити пристрій спати</string>
   <!-- Dock visibility -->
-  <string name="show_hotseat_title">Dock icons</string>
-  <string name="show_hotseat_summary">Show the icons in the dock</string>
+  <string name="show_hotseat_title">Значки док-панелі</string>
+  <string name="show_hotseat_summary">Показувати значки в док-панелі</string>
   <!-- Preference categories -->
-  <string name="home_category_title">Home screen</string>
-  <string name="app_drawer_category_title">App drawer</string>
-  <string name="icon_category_title">App icons</string>
-  <string name="widget_category_title">Widgets</string>
-  <string name="other_category_title">Miscellaneous</string>
-  <string name="grid_category_title">Icons grid</string>
-  <string name="gestures_category_title">Gestures</string>
+  <string name="home_category_title">Головний екран</string>
+  <string name="app_drawer_category_title">Меню програм</string>
+  <string name="icon_category_title">Значки програм</string>
+  <string name="widget_category_title">Віджети</string>
+  <string name="other_category_title">Різне</string>
+  <string name="grid_category_title">Сітка значків</string>
+  <string name="gestures_category_title">Жести</string>
 </resources>
