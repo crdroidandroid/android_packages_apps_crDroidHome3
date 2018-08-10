@@ -89,110 +89,110 @@
   <!-- Permission short label -->
   <string name="permlab_install_shortcut">Cài đặt lối tắt</string>
   <!-- Permission description -->
-  <string name="permdesc_install_shortcut">Allows an app to add
-        shortcuts without user intervention.</string>
+  <string name="permdesc_install_shortcut">Cho phép ứng dụng thêm
+        lối tắt mà không cần sự can thiệp của người dùng.</string>
   <!-- Permission short label -->
-  <string name="permlab_read_settings">read Home settings and shortcuts</string>
+  <string name="permlab_read_settings">đọc Cài đặt màn hình chính và lỗi tắt</string>
   <!-- Permission description -->
-  <string name="permdesc_read_settings">Allows the app to read the settings and
-        shortcuts in Home.</string>
+  <string name="permdesc_read_settings">Cho phép ứng dụng và
+        lối tắt trên Màn hình chính.</string>
   <!-- Permission short label -->
-  <string name="permlab_write_settings">write Home settings and shortcuts</string>
+  <string name="permlab_write_settings">đọc Cài đặt màn hình chính và lối tắt</string>
   <!-- Permission description -->
-  <string name="permdesc_write_settings">Allows the app to change the settings and
-        shortcuts in Home.</string>
+  <string name="permdesc_write_settings">Cho phép ứng dụng thay đổi cài đặt và
+        lối tắt trên Màn hình chính.</string>
   <!-- Toast shown on clicking a direct call shortcut. [CHAR_LIMIT=80] -->
-  <string name="msg_no_phone_permission"><xliff:g id="app_name" example="Pixel Launcher">%1$s</xliff:g> is not allowed to make phone calls</string>
+  <string name="msg_no_phone_permission"><xliff:g id="app_name" example="Pixel Launcher">%1$s</xliff:g> không được phép thực hiện cuộc gọi</string>
   <!-- Widgets: -->
   <skip></skip>
   <!-- Text to show user in place of a gadget when we can't display it properly -->
-  <string name="gadget_error_text">Problem loading widget</string>
+  <string name="gadget_error_text">Lỗi khi tải tiện ích</string>
   <!-- Text to show user in place of a gadget when it is not yet initialized. -->
-  <string name="gadget_setup_text">Setup</string>
+  <string name="gadget_setup_text">Thiết lập</string>
   <!-- Text to inform the user that they can't uninstall a system application -->
-  <string name="uninstall_system_app_text">This is a system app and can\'t be uninstalled.</string>
+  <string name="uninstall_system_app_text">Đây là một ứng dụng hệ thống và không thể bị gỡ cài đặt.</string>
   <!-- Default folder title -->
-  <string name="folder_hint_text">Unnamed Folder</string>
+  <string name="folder_hint_text">Thư mục chưa đặt tên</string>
   <!-- Accessibility -->
   <!-- The format string for when an app is temporarily disabled. -->
-  <string name="disabled_app_label">Disabled <xliff:g id="app_name" example="Messenger">%1$s</xliff:g></string>
+  <string name="disabled_app_label">Vô hiệu hóa<xliff:g id="app_name" example="Messenger">%1$s</xliff:g></string>
   <skip></skip>
   <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
-  <string name="default_scroll_format">Page %1$d of %2$d</string>
+  <string name="default_scroll_format">Trang %1$d trên %2$d</string>
   <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
-  <string name="workspace_scroll_format">Home screen %1$d of %2$d</string>
+  <string name="workspace_scroll_format">Màn hình chính %1$d trên %2$d</string>
   <!-- Description for a new page on homescreen[CHAR_LIMIT=none] -->
-  <string name="workspace_new_page">New home screen page</string>
+  <string name="workspace_new_page">Trang màn hình chính mới</string>
   <!-- Folder accessibility -->
   <!-- The format string for when a folder is opened, speaks the dimensions -->
-  <string name="folder_opened">Folder opened, <xliff:g id="width" example="5">%1$d</xliff:g> by <xliff:g id="height" example="3">%2$d</xliff:g></string>
+  <string name="folder_opened">Đã mở thư mục, <xliff:g id="width" example="5">%1$d</xliff:g> bởi <xliff:g id="height" example="3">%2$d</xliff:g></string>
   <!-- Instruction that clicking outside will close folder -->
-  <string name="folder_tap_to_close">Tap to close folder</string>
+  <string name="folder_tap_to_close">Chạm để đóng thư mục</string>
   <!-- Instruction that clicking outside will commit folder rename -->
-  <string name="folder_tap_to_rename">Tap to save rename</string>
+  <string name="folder_tap_to_rename">Chạm để lưu tên mới</string>
   <!-- Indication that folder closed -->
-  <string name="folder_closed">Folder closed</string>
+  <string name="folder_closed">Đã đóng thư mục</string>
   <!-- Folder renamed format -->
-  <string name="folder_renamed">Folder renamed to <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+  <string name="folder_renamed">Đã đổi tên thư mục thành <xliff:g id="name" example="Games">%1$s</xliff:g></string>
   <!-- Folder name format -->
-  <string name="folder_name_format">Folder: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+  <string name="folder_name_format">Thư mục: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
   <!-- Strings for the customization mode -->
   <!-- Text for widget add button -->
-  <string name="widget_button_text">Widgets</string>
+  <string name="widget_button_text">Tiện ích</string>
   <!-- Text for wallpaper change button -->
-  <string name="wallpaper_button_text">Wallpapers</string>
+  <string name="wallpaper_button_text">Hình nền</string>
   <!-- Text for settings button -->
-  <string name="settings_button_text">Settings</string>
+  <string name="settings_button_text">Cài đặt</string>
   <!-- Message shown when a feature is disabled by the administrator -->
-  <string name="msg_disabled_by_admin">Disabled by your admin</string>
+  <string name="msg_disabled_by_admin">Đã bị vô hiệu hoá bởi quản trị viên</string>
   <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
-  <string name="accessibility_action_overview">Overview</string>
+  <string name="accessibility_action_overview">Tổng quan</string>
   <!-- Strings for settings -->
   <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
-  <string name="allow_rotation_title">Screen orientation</string>
+  <string name="allow_rotation_title">Xoay màn hình</string>
   <!-- Text explaining when the home screen will get rotated. [CHAR LIMIT=100] -->
-  <string name="allow_rotation_desc">Allow launcher to auto rotate accordingly</string>
+  <string name="allow_rotation_desc">Cho phép trình khởi chạy xoay màn hình</string>
   <!-- Text explaining that rotation is disabled in Display settings. 'Display' refers to the Display section in system settings [CHAR LIMIT=100] -->
-  <string name="allow_rotation_blocked_desc">Current Display setting doesn\'t permit rotation</string>
+  <string name="allow_rotation_blocked_desc">Cài đặt Hiển thị hiện tại không cho phép xoay</string>
   <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
-  <string name="icon_badging_title">Notification dots</string>
+  <string name="icon_badging_title">Dấu chấm thông báo</string>
   <!-- Text to indicate that the system icon badging setting is on [CHAR LIMIT=100] -->
-  <string name="icon_badging_desc_on">On</string>
+  <string name="icon_badging_desc_on">Bật</string>
   <!-- Text to indicate that the system icon badging setting is off [CHAR LIMIT=100] -->
-  <string name="icon_badging_desc_off">Off</string>
+  <string name="icon_badging_desc_off">Tắt</string>
   <!-- Title for the dialog shown when the app does not has notification access, explaining the requirement for notification access [CHAR LIMIT=50] -->
-  <string name="title_missing_notification_access">Notification access needed</string>
+  <string name="title_missing_notification_access">Cần quyền Truy cập thông báo</string>
   <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
-  <string name="msg_missing_notification_access">To show Notification Dots, turn on app notifications for <xliff:g id="name" example="My App">%1$s</xliff:g></string>
+  <string name="msg_missing_notification_access">Để hiển thị Dấu chấm thông báo, hãy bật Thông báo cho ứng dụng <xliff:g id="name" example="My App">%1$s</xliff:g></string>
   <!-- Button text in the confirmation dialog which would take the user to the system settings [CHAR LIMIT=50] -->
-  <string name="title_change_settings">Change settings</string>
+  <string name="title_change_settings">Thay đổi cài đặt</string>
   <!-- Label for the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=40] -->
-  <string name="auto_add_shortcuts_label">Add icon to Home screen</string>
+  <string name="auto_add_shortcuts_label">Thêm biểu tượng vào màn hình chính</string>
   <!-- Text description of the setting that allows the automatic placement of launcher shortcuts for applications and games installed on the device [CHAR LIMIT=NONE] -->
-  <string name="auto_add_shortcuts_description">For newly installed apps</string>
+  <string name="auto_add_shortcuts_description">Cho ứng dụng mới cài đặt</string>
   <!-- Developer setting to change the shape of icons on home screen. [CHAR LIMIT=50] -->
-  <string name="icon_shape_override_label">Change icon shape</string>
+  <string name="icon_shape_override_label">Thay đổi hình dạng biểu tượng</string>
   <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
-  <string name="icon_shape_system_default">Use system default</string>
+  <string name="icon_shape_system_default">Sử dụng mặc định hệ thống</string>
   <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->
-  <string name="icon_shape_square">Square</string>
+  <string name="icon_shape_square">Hình vuông</string>
   <!-- Option to change the shape of the home screen icons to a squircle. This represents the name of the shape somewhere between a circle and a square. [CHAR LIMIT=50] -->
-  <string name="icon_shape_squircle">Squircle</string>
+  <string name="icon_shape_squircle">Hình vuông cạnh bo tròn</string>
   <!-- Option to change the shape of the home screen icons to a circle. [CHAR LIMIT=50] -->
-  <string name="icon_shape_circle">Circle</string>
+  <string name="icon_shape_circle">Hình tròn</string>
   <!-- Option to change the shape of the home screen icons to a teardrop. This represents the name of the shape similar to a circle with with the bottom right corner pushed out like a square [CHAR LIMIT=50] -->
-  <string name="icon_shape_teardrop">Teardrop</string>
-  <string name="icon_shape_rounded_square">Rounded square</string>
+  <string name="icon_shape_teardrop">Hình giọt nước</string>
+  <string name="icon_shape_rounded_square">Hình vuông bo góc</string>
   <!-- Message shown in the progress dialog when the icon shape override is being applied [CHAR LIMIT=100]-->
-  <string name="icon_shape_override_progress">Applying icon shape changes</string>
+  <string name="icon_shape_override_progress">Đang áp dụng thay đổi hình dạng biểu tượng</string>
   <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
-  <string name="package_state_unknown">Unknown</string>
+  <string name="package_state_unknown">Không rõ</string>
   <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
-  <string name="abandoned_clean_this">Remove</string>
+  <string name="abandoned_clean_this">Xóa</string>
   <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
-  <string name="abandoned_search">Search</string>
+  <string name="abandoned_search">Tìm kiếm</string>
   <!-- Title for abandoned promise dialog. -->
-  <string name="abandoned_promises_title">This app is not installed</string>
+  <string name="abandoned_promises_title">Ứng dụng này chưa được cài đặt</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
   <string name="abandoned_promise_explanation">The app for this icon isn\'t installed.

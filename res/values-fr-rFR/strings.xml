@@ -335,7 +335,7 @@ Vous pouvez supprimer cette dernière, ou essayer de rechercher l\'application e
   <string name="default_iconpack_title">Par défaut</string>
   <string name="icons_pack_name">Pack d\'icônes</string>
   <string name="edit_drop_target_label">Modifier</string>
-  <string name="edit_hint">Icon name</string>
+  <string name="edit_hint">Nom de l\'icône</string>
   <string name="edit_app">Modifier</string>
   <string name="reset_icon">Réinitialiser</string>
   <string name="customize">Personnaliser</string>
