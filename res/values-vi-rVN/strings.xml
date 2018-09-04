@@ -195,121 +195,119 @@
   <string name="abandoned_promises_title">Ứng dụng này chưa được cài đặt</string>
   <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
     The second "it" refers to the app. -->
-  <string name="abandoned_promise_explanation">The app for this icon isn\'t installed.
-        You can remove it, or search for the app and install it manually.
-    </string>
+  <string name="abandoned_promise_explanation">Ứng dụng cho biểu tượng này chưa được cài đặt. Bạn có thể xóa ứng dụng hoặc tìm kiếm và cài đặt ứng dụng theo cách thủ công.    </string>
   <!-- Title for an app which is being downloaded. -->
-  <string name="app_downloading_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> downloading, <xliff:g id="progress" example="30%">%2$s</xliff:g> complete</string>
+  <string name="app_downloading_title">Đang tải xuống <xliff:g id="Name">%1$s</xliff:g>, <xliff:g id="Progress">%2$s</xliff:g> hoàn tất</string>
   <!-- Title for an app whose download has been started. -->
-  <string name="app_waiting_download_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> waiting to install</string>
+  <string name="app_waiting_download_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> chờ đợi để cài đặt</string>
   <!-- Strings for widgets & more in the popup container/bottom sheet -->
   <!-- Title for a bottom sheet that shows widgets for a particular app -->
-  <string name="widgets_bottom_sheet_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> widgets</string>
+  <string name="widgets_bottom_sheet_title"><xliff:g id="name" example="Messenger">%1$s</xliff:g> lối tắt</string>
   <!-- Strings for accessibility actions -->
   <!-- Accessibility action to add an app to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_add_to_workspace">Add to Home screen</string>
+  <string name="action_add_to_workspace">Thêm vào màn hình chính</string>
   <!-- Accessibility action to move item to the current location. [CHAR_LIMIT=30] -->
-  <string name="action_move_here">Move item here</string>
+  <string name="action_move_here">Di chuyển mục vào đây</string>
   <!-- Accessibility confirmation for item added to workspace. -->
-  <string name="item_added_to_workspace">Item added to home screen</string>
+  <string name="item_added_to_workspace">Đã thêm mục vào màn hình chính</string>
   <!-- Accessibility confirmation for item removed. -->
-  <string name="item_removed">Item removed</string>
+  <string name="item_removed">Đã xóa mục</string>
   <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
-  <string name="action_move">Move item</string>
+  <string name="action_move">Di chuyển mục</string>
   <!-- Accessibility description to move item to empty cell. -->
-  <string name="move_to_empty_cell">Move to row <xliff:g id="number" example="1">%1$s</xliff:g> column <xliff:g id="number" example="1">%2$s</xliff:g></string>
+  <string name="move_to_empty_cell">Di chuyển đến hàng<xliff:g id="number" example="1">%1$s</xliff:g> cột<xliff:g id="number" example="1">%2$s</xliff:g></string>
   <!-- Accessibility description to move item inside a folder. -->
-  <string name="move_to_position">Move to position <xliff:g id="number" example="1">%1$s</xliff:g></string>
+  <string name="move_to_position">Di chuyển đến vị trí <xliff:g id="number" example="1">%1$s</xliff:g></string>
   <!-- Accessibility description to move item to the hotseat. -->
-  <string name="move_to_hotseat_position">Move to favorites position <xliff:g id="number" example="1">%1$s</xliff:g></string>
+  <string name="move_to_hotseat_position">Di chuyển đến vị trí ưa thích<xliff:g id="number" example="1">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for item move. -->
-  <string name="item_moved">Item moved</string>
+  <string name="item_moved">Đã di chuyển mục</string>
   <!-- Accessibility description to move item into an existing folder. -->
-  <string name="add_to_folder">Add to folder: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+  <string name="add_to_folder">Thêm thư mục: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
   <!-- Accessibility description to move item into an existing folder containing an app. -->
-  <string name="add_to_folder_with_app">Add to folder with <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
+  <string name="add_to_folder_with_app">Thêm thư mục với <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for item added to folder. -->
-  <string name="added_to_folder">Item added to folder</string>
+  <string name="added_to_folder">Đã thêm mục vào thư mục</string>
   <!-- Accessibility description to create folder with another item. -->
-  <string name="create_folder_with">Create folder with: <xliff:g id="name" example="Game">%1$s</xliff:g></string>
+  <string name="create_folder_with">Tạo thư mục với: <xliff:g id="name" example="Game">%1$s</xliff:g></string>
   <!-- Accessibility confirmation for folder created. -->
-  <string name="folder_created">Folder created</string>
+  <string name="folder_created">Đã tạo thư mục</string>
   <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
-  <string name="action_move_to_workspace">Move to Home screen</string>
+  <string name="action_move_to_workspace">Di chuyển đến màn hình chính</string>
   <!-- Accessibility action to move an homescreen to the left. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_left">Move screen to left</string>
+  <string name="action_move_screen_left">Di chuyển màn hình sang trái</string>
   <!-- Accessibility action to move an homescreen to the right. [CHAR_LIMIT=30] -->
-  <string name="action_move_screen_right">Move screen to right</string>
+  <string name="action_move_screen_right">Di chuyển màn hình sang phải</string>
   <!-- Accessibility confirmation when a screen was moved. -->
-  <string name="screen_moved">Screen moved</string>
+  <string name="screen_moved">Đã di chuyển màn hình</string>
   <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
-  <string name="action_resize">Resize</string>
+  <string name="action_resize">Đổi kích thước</string>
   <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_width">Increase width</string>
+  <string name="action_increase_width">Tăng chiều rộng</string>
   <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_increase_height">Increase height</string>
+  <string name="action_increase_height">Tăng chiều cao</string>
   <!-- Accessibility action to decrease width of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_decrease_width">Decrease width</string>
+  <string name="action_decrease_width">Giảm chiều rộng</string>
   <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
-  <string name="action_decrease_height">Decrease height</string>
+  <string name="action_decrease_height">Giảm chiều cao</string>
   <!-- Accessibility confirmation for widget resize. -->
-  <string name="widget_resized">Widget resized to width <xliff:g id="number" example="2">%1$s</xliff:g> height <xliff:g id="number" example="1">%2$s</xliff:g></string>
+  <string name="widget_resized">Chiều rộng của lối tắt <xliff:g id="number" example="2">%1$s</xliff:g> cao <xliff:g id="number" example="1">%2$s</xliff:g></string>
   <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
-  <string name="action_deep_shortcut">Shortcuts</string>
+  <string name="action_deep_shortcut">Phím tắt</string>
   <!-- Accessibility description for the shortcuts menu shown for an app. -->
   <string name="shortcuts_menu_description"><xliff:g id="number_of_shortcuts" example="3">%1$d</xliff:g> shortcuts for <xliff:g id="app_name" example="Messenger">%2$s</xliff:g></string>
   <!-- Accessibility description when the shortcuts menu has notifications as well as shortcuts. -->
   <string name="shortcuts_menu_with_notifications_description"><xliff:g id="number_of_shortcuts" example="3">%1$d</xliff:g> shortcuts and <xliff:g id="number_of_notifications" example="3">%2$d</xliff:g> notifications for <xliff:g id="app_name" example="Messenger">%3$s</xliff:g></string>
   <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
-  <string name="action_dismiss_notification">Dismiss</string>
+  <string name="action_dismiss_notification">Bỏ qua</string>
   <!-- Accessibility confirmation for notification being dismissed. -->
-  <string name="notification_dismissed">Notification dismissed</string>
+  <string name="notification_dismissed">Đã loại bỏ thông báo</string>
   <string name="icu_abbrev_wday_month_day_no_year">EEEMMMd</string>
-  <string name="smartspace_preferences">Preferences</string>
-  <string name="label_search">Search</string>
-  <string name="label_voice_search">Voice search</string>
+  <string name="smartspace_preferences">Tuỳ chỉnh</string>
+  <string name="label_search">Tìm kiếm</string>
+  <string name="label_voice_search">Tìm kiếm bằng giọng nói</string>
   <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
-  <string name="pref_icon_pack">Icon pack</string>
-  <string name="state_loading">Applying…</string>
-  <string name="smartspace_preferences_in_settings">\"At a Glance\" widget</string>
+  <string name="pref_icon_pack">Gói biểu tượng</string>
+  <string name="state_loading">Đang áp dụng…</string>
+  <string name="smartspace_preferences_in_settings">Xem nhanh</string>
   <string name="smartspace_preferences_in_settings_desc">Show a widget at the top of the homescreen that displays different events</string>
   <string name="title_show_google_app">%1$s</string>
   <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
-  <string name="msg_minus_one_on_left">Swipe to the right on the homescreen to access Google now panel</string>
-  <string name="about">About</string>
-  <string name="title_google_app">Google now panel</string>
-  <string name="title_app_suggestions">App suggestions</string>
-  <string name="summary_app_suggestions">Show app suggestions at the top of your All Apps list</string>
-  <string name="about_app_version">Version</string>
+  <string name="msg_minus_one_on_left">Vuốt sang phải màn hình chính chính để mở Google now</string>
+  <string name="about">Giới thiệu</string>
+  <string name="title_google_app">Ứng dụng Google</string>
+  <string name="title_app_suggestions">Hiển thị đề xuất ứng dụng</string>
+  <string name="summary_app_suggestions">Hiển thị đề xuất ứng dụng ở đầu danh sách ứng dụng</string>
+  <string name="about_app_version">Phiên bản</string>
   <string name="app_name_pixel_launcher">@string/crdroidhome_app_name</string>
-  <string name="title_disable_suggestions_prompt">Turn off app suggestions?</string>
-  <string name="msg_disable_suggestions_prompt">"Suggestions won't appear at the top of your apps list, and the usage data used to create them will be permanently erased."</string>
-  <string name="label_turn_off_suggestions">TURN OFF</string>
+  <string name="title_disable_suggestions_prompt">Tắt đề xuất ứng dụng?</string>
+  <string name="msg_disable_suggestions_prompt">"Các đề xuất sẽ không hiển thị ở đầu danh sách ứng dụng và dữ liệu sử dụng đã được dùng để tạo các đề xuất này sẽ bị xóa vĩnh viễn."</string>
+  <string name="label_turn_off_suggestions">TẮT</string>
   <!-- Hidden app -->
-  <string name="hide_app">Hide apps</string>
-  <string name="hide_app_sum">Hide apps from the app drawer</string>
-  <string name="hide_app_selected">&#160;selected</string>
-  <string name="hidden_app">All apps</string>
-  <string name="hide_selected">Hide selected app(s)</string>
-  <string name="more">More</string>
-  <string name="reset_hidden_apps">Reset all</string>
-  <string name="reset_hidden_apps_done">Hidden apps are now available</string>
-  <string name="pref_show_clock_weather">Home screen date and weather</string>
-  <string name="pref_show_clock_weather_both">Show both date and weather</string>
-  <string name="pref_show_clock_weather_nothing">Don\'t show</string>
-  <string name="pref_show_clock_weather_clock_only">Show date only</string>
-  <string name="pref_show_clock_weather_weather_only">Show weather only</string>
+  <string name="hide_app">Ẩn ứng dụng</string>
+  <string name="hide_app_sum">Ẩn khỏi ngăn chứa ứng dụng</string>
+  <string name="hide_app_selected">&#160;đã chọn</string>
+  <string name="hidden_app">Tất cả ứng dụng</string>
+  <string name="hide_selected">Ẩn (các) ứng dụng đã chọn</string>
+  <string name="more">Nhiều</string>
+  <string name="reset_hidden_apps">Đặt lại tất cả</string>
+  <string name="reset_hidden_apps_done">Các ứng dụng ẩn đã có trở lại</string>
+  <string name="pref_show_clock_weather">Ngày và thời tiết trên màn hình chính</string>
+  <string name="pref_show_clock_weather_both">Hiển thị cả ngày và thời tiết</string>
+  <string name="pref_show_clock_weather_nothing">Không hiển thị</string>
+  <string name="pref_show_clock_weather_clock_only">Hiển thị chỉ ngày</string>
+  <string name="pref_show_clock_weather_weather_only">Hiển thị chỉ thời tiết</string>
   <!-- Hide/Show search bars -->
-  <string name="bottom_search_bar_title">Bottom search bar</string>
-  <string name="bottom_search_bar_summary">Show the bottom search bar at the bottom of the dock</string>
-  <string name="top_search_bar_title">Top search bar</string>
-  <string name="top_search_bar_summary">Show the bottom search at the top of the app drawer</string>
-  <string name="num_default">Default</string>
-  <string name="num_three">Three</string>
-  <string name="num_four">Four</string>
-  <string name="num_five">Five</string>
-  <string name="num_six">Six</string>
-  <string name="num_seven">Seven</string>
+  <string name="bottom_search_bar_title">Thanh tìm kiếm dưới cùng</string>
+  <string name="bottom_search_bar_summary">Hiện thị thanh tìm kiếm ở dưới cùng của thanh công cụ</string>
+  <string name="top_search_bar_title">Thanh tìm kiếm trên cùng</string>
+  <string name="top_search_bar_summary">Hiện thị thanh tìm kiếm trên cùng của ngăn chứa ứng dụng</string>
+  <string name="num_default">Mặc định</string>
+  <string name="num_three">Ba</string>
+  <string name="num_four">Bốn</string>
+  <string name="num_five">Năm</string>
+  <string name="num_six">Sáu</string>
+  <string name="num_seven">Bảy</string>
   <string-array name="grid_names">
     <item>@string/num_default</item>
     <item>@string/num_three</item>
@@ -319,57 +317,57 @@
     <item>@string/num_seven</item>
   </string-array>
   <string-array name="grid_values">
-    <item>default</item>
-    <item>three</item>
-    <item>four</item>
-    <item>five</item>
-    <item>six</item>
-    <item>seven</item>
+    <item>mặc định</item>
+    <item>ba</item>
+    <item>bốn</item>
+    <item>năm</item>
+    <item>sáu</item>
+    <item>bảy</item>
   </string-array>
-  <string name="number_of_columns_title">Grid columns</string>
-  <string name="number_of_rows_title">Grid rows</string>
-  <string name="number_of_hotseat_title">No. of dock icons</string>
-  <string name="action_edit">Edit</string>
-  <string name="pref_override_icon_shape_dark_bg_title">Use dark shape</string>
-  <string name="pref_override_icon_shape_dark_bg_summary">Use a dark background color for icons without their own shape color</string>
+  <string name="number_of_columns_title">Số cột</string>
+  <string name="number_of_rows_title">Số hàng</string>
+  <string name="number_of_hotseat_title">Số biểu tượng của Dock</string>
+  <string name="action_edit">Chỉnh sửa</string>
+  <string name="pref_override_icon_shape_dark_bg_title">Dùng kiểu màu tối</string>
+  <string name="pref_override_icon_shape_dark_bg_summary">Sử dụng màu nền tối cho các biểu tượng thay vì màu nền của biểu tượng đó</string>
   <string name="smartspace_hours_mins">%1$s %2$s</string>
   <!-- Folder titles -->
-  <string name="play_folder_title">Play</string>
+  <string name="play_folder_title">Phát</string>
   <!-- Icon pack -->
-  <string name="default_iconpack_title">Default</string>
-  <string name="icons_pack_name">Icon pack</string>
-  <string name="edit_drop_target_label">Edit</string>
-  <string name="edit_hint">Icon name</string>
-  <string name="edit_app">Edit</string>
-  <string name="reset_icon">Reset</string>
-  <string name="customize">Customize</string>
-  <string name="visual">Visual</string>
-  <string name="all_icons">All icons</string>
-  <string name="similar_icons">Similar icons</string>
+  <string name="default_iconpack_title">Mặc định</string>
+  <string name="icons_pack_name">Gói biểu tượng</string>
+  <string name="edit_drop_target_label">Thay đổi</string>
+  <string name="edit_hint">Tên biểu tượng</string>
+  <string name="edit_app">Chỉnh sửa</string>
+  <string name="reset_icon">Đặt lại</string>
+  <string name="customize">Tùy chỉnh</string>
+  <string name="visual">Trực quan</string>
+  <string name="all_icons">Tất cả biểu tượng</string>
+  <string name="similar_icons">Các biểu tượng tương tự</string>
   <string name="ok">Ok</string>
-  <string name="icon_label">Label</string>
-  <string name="loading">Loading, please wait</string>
-  <string name="icon_chooser">Icon chooser</string>
-  <string name="icon_search">Search for icons</string>
-  <string name="icon_pack_updated">Your launcher icon pack has been updated, new icons for your apps might be available.</string>
+  <string name="icon_label">Nhãn</string>
+  <string name="loading">Đang tải, xin vui lòng chờ</string>
+  <string name="icon_chooser">Chọn Biểu Tượng</string>
+  <string name="icon_search">Tìm Biểu Tượng</string>
+  <string name="icon_pack_updated">Gói biểu tượng của bạn đã được cập nhật, các biểu tượng mới cho các ứng dụng của bạn đã có sẵn.</string>
   <!-- Swipe up indicator -->
-  <string name="show_swipeup_arrow">Swipe up indicator</string>
-  <string name="show_swipeup_arrow_summary">Show the swipe up arrow indicator on top of the dock</string>
+  <string name="show_swipeup_arrow">Dấu rượt lên</string>
+  <string name="show_swipeup_arrow_summary">Hiện thị dấu mũi tên trượt lên ở phần đầu của thanh công cụ</string>
   <!-- Swipe down notifications -->
-  <string name="swipedown_notifications">Swipe down notifications</string>
-  <string name="swipedown_notifications_summary">Swipe down to show notifications and up to close notifications</string>
+  <string name="swipedown_notifications">Trượt xuống để hiển thị thông báo</string>
+  <string name="swipedown_notifications_summary">Trượt xuống để hiển thị thông báo và lên để đóng</string>
   <!-- Double tap to sleep -->
-  <string name="double_tap_sleep_title">Double tap sleep</string>
-  <string name="double_tap_sleep_summary">Put device to sleep</string>
+  <string name="double_tap_sleep_title">Chạm hai lần để tắt màn hình</string>
+  <string name="double_tap_sleep_summary">Tắt màn hình</string>
   <!-- Dock visibility -->
-  <string name="show_hotseat_title">Dock icons</string>
-  <string name="show_hotseat_summary">Show the icons in the dock</string>
+  <string name="show_hotseat_title">Biểu tượng thanh Dock</string>
+  <string name="show_hotseat_summary">Hiện biểu tượng trên Dock</string>
   <!-- Preference categories -->
-  <string name="home_category_title">Home screen</string>
-  <string name="app_drawer_category_title">App drawer</string>
-  <string name="icon_category_title">App icons</string>
-  <string name="widget_category_title">Widgets</string>
-  <string name="other_category_title">Miscellaneous</string>
-  <string name="grid_category_title">Icons grid</string>
-  <string name="gestures_category_title">Gestures</string>
+  <string name="home_category_title">Màn hình chính</string>
+  <string name="app_drawer_category_title">Ngăn ứng dụng</string>
+  <string name="icon_category_title">Biểu tượng ứng dụng</string>
+  <string name="widget_category_title">Tiện ích</string>
+  <string name="other_category_title">Cài đặt khác</string>
+  <string name="grid_category_title">Lưới biểu tượng</string>
+  <string name="gestures_category_title">Cử chỉ</string>
 </resources>

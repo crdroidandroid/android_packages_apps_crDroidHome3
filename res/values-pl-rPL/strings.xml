@@ -336,7 +336,7 @@
   <string name="default_iconpack_title">Domyślny</string>
   <string name="icons_pack_name">Pakiet ikon</string>
   <string name="edit_drop_target_label">Edytuj</string>
-  <string name="edit_hint">Icon name</string>
+  <string name="edit_hint">Nazwa ikony</string>
   <string name="edit_app">Edytuj</string>
   <string name="reset_icon">Resetuj</string>
   <string name="customize">Dostosuj</string>
