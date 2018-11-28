@@ -21,73 +21,73 @@
     <!-- General -->
     <skip></skip>
     <!-- Application name -->
-    <string name="crdroidhome_app_name">crDroid होम</string>
+    <string name="crdroidhome_app_name">crDroid Home</string>
     <string name="app_name">@string/crdroidhome_app_name</string>
     <!-- Default folder name -->
     <string name="folder_name"></string>
     <!-- Work folder name -->
-    <string name="work_folder_name">वर्क</string>
+    <string name="work_folder_name">Work</string>
     <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
-    <string name="activity_not_found">एप इनस्टॉल नहीं है.</string>
+    <string name="activity_not_found">App isn\'t installed.</string>
     <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
-    <string name="activity_not_available">एप उपलब्ध नहीं है</string>
+    <string name="activity_not_available">App isn\'t available</string>
     <!-- SafeMode shortcut error string -->
-    <string name="safemode_shortcut_error">डाउनलोड किए गए एप्स सेफ मोड में निष्क्रिय हैं</string>
+    <string name="safemode_shortcut_error">Downloaded app disabled in Safe mode</string>
     <!-- SafeMode widget error string -->
-    <string name="safemode_widget_error">सेफ मोड में विजेट्स निष्क्रिय हैं</string>
+    <string name="safemode_widget_error">Widgets disabled in Safe mode</string>
     <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
-    <string name="shortcut_not_available">शॉर्टकट उपलब्ध नहीं है</string>
+    <string name="shortcut_not_available">Shortcut isn\'t available</string>
     <!-- User visible name for the launcher/home screen. [CHAR_LIMIT=30] -->
-    <string name="home_screen">होम स्क्रीन</string>
+    <string name="home_screen">Home screen</string>
     <!-- Label for showing custom action list of a shortcut or widget. [CHAR_LIMIT=30] -->
-    <string name="custom_actions">कस्टम ऐक्शन्स</string>
+    <string name="custom_actions">Custom actions</string>
     <!-- Widgets -->
     <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
-    <string name="long_press_widget_to_add">विजेट को चुनने के लिए टच करके रखें.</string>
+    <string name="long_press_widget_to_add">Touch &amp; hold to pick up a widget.</string>
     <!-- Accessibility spoken hint message in widget picker, which allows user to add a widget. Custom action is the label for additional accessibility actions available in this mode [CHAR_LIMIT=100] -->
-    <string name="long_accessible_way_to_add">किसी विजेट को चुनने के लिए डबल टैप करके रखें या कस्‍टम ऐक्शन्स चुनें.</string>
+    <string name="long_accessible_way_to_add">Double-tap &amp; hold to pick up a widget or use custom actions.</string>
     <!-- The format string for the dimensions of a widget in the drawer -->
     <!-- There is a special version of this format string for Farsi -->
     <string name="widget_dims_format">%1$d \u00d7 %2$d</string>
     <!-- Accessibility spoken message format for the dimensions of a widget in the drawer -->
-    <string name="widget_accessible_dims_format">%1$d चौड़ाई %2$d ऊंचाई</string>
+    <string name="widget_accessible_dims_format">%1$d wide by %2$d high</string>
     <!-- Message to tell the user to press and hold a widget/icon to add it  -->
-    <string name="add_item_request_drag_hint">मैन्युअली रखने के लिए टच करके होल्ड करें</string>
+    <string name="add_item_request_drag_hint">Touch &amp; hold to place manually</string>
     <!-- Button label to automatically add icon on home screen [CHAR_LIMIT=50] -->
-    <string name="place_automatically">ऑटोमेटिकली जोड़े</string>
+    <string name="place_automatically">Add automatically</string>
     <!-- All Apps -->
     <!-- Search bar text in the apps view. [CHAR_LIMIT=50] -->
-    <string name="all_apps_search_bar_hint">एप्स खोजें</string>
+    <string name="all_apps_search_bar_hint">Search apps</string>
     <!-- Loading apps text. [CHAR_LIMIT=50] -->
-    <string name="all_apps_loading_message">एप्स लोड हो रहे हैं&#8230;</string>
+    <string name="all_apps_loading_message">Loading apps&#8230;</string>
     <!-- No-search-results text. [CHAR_LIMIT=50] -->
-    <string name="all_apps_no_search_results">\"<xliff:g id="query" example="Android">%1$s</xliff:g>\" से मेल खाता कोई एप नहीं मिला</string>
+    <string name="all_apps_no_search_results">No apps found matching \"<xliff:g id="query" example="Android">%1$s</xliff:g>\"</string>
     <!-- Label for the button which allows the user to get app search results. [CHAR_LIMIT=50] -->
-    <string name="all_apps_search_market_message">अधिक एप्स खोजें</string>
+    <string name="all_apps_search_market_message">Search for more apps</string>
     <!-- Popup items -->
     <!-- Text to display as the header above notifications. [CHAR_LIMIT=30] -->
-    <string name="notifications_header">नोटिफिकेशन्स</string>
+    <string name="notifications_header">Notifications</string>
     <!-- Drag and drop -->
     <skip></skip>
     <!-- Error message when user has filled a home screen -->
-    <string name="out_of_space">इस होम स्क्रीन जगह नहीं है.</string>
+    <string name="out_of_space">No more room on this Home screen.</string>
     <!-- Error message when user has filled the hotseat -->
-    <string name="hotseat_out_of_space">फेवरिट्स ट्रे में जगह नहीं है</string>
+    <string name="hotseat_out_of_space">No more room in the Favorites tray</string>
     <!-- All applications label -->
-    <string name="all_apps_button_label">एप्स लिस्ट</string>
+    <string name="all_apps_button_label">Apps list</string>
     <!-- Label for button in all applications label to go back home (to the workspace / desktop)
          for accessibilty (spoken when the button gets focus). -->
-    <string name="all_apps_home_button_label">होम</string>
+    <string name="all_apps_home_button_label">Home</string>
     <!-- Label for remove drop target. [CHAR_LIMIT=20] -->
-    <string name="remove_drop_target_label">हटाएं</string>
+    <string name="remove_drop_target_label">Remove</string>
     <!-- Label for uninstall drop target. [CHAR_LIMIT=20]-->
-    <string name="uninstall_drop_target_label">अनइंस्टॉल</string>
+    <string name="uninstall_drop_target_label">Uninstall</string>
     <!-- Label for app info drop target. [CHAR_LIMIT=20] -->
-    <string name="app_info_drop_target_label">एप इन्फो</string>
+    <string name="app_info_drop_target_label">App info</string>
     <!-- Permissions: -->
     <skip></skip>
     <!-- Permission short label -->
-    <string name="permlab_install_shortcut">इंस्‍टॉल शॉर्टकट</string>
+    <string name="permlab_install_shortcut">install shortcuts</string>
     <!-- Permission description -->
     <string name="permdesc_install_shortcut">Allows an app to add
         shortcuts without user intervention.</string>
@@ -108,7 +108,7 @@
     <!-- Text to show user in place of a gadget when we can't display it properly -->
     <string name="gadget_error_text">Problem loading widget</string>
     <!-- Text to show user in place of a gadget when it is not yet initialized. -->
-    <string name="gadget_setup_text">सेटअप</string>
+    <string name="gadget_setup_text">Setup</string>
     <!-- Text to inform the user that they can't uninstall a system application -->
     <string name="uninstall_system_app_text">This is a system app and can\'t be uninstalled.</string>
     <!-- Default folder title -->
@@ -138,15 +138,15 @@
     <string name="folder_name_format">Folder: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
     <!-- Strings for the customization mode -->
     <!-- Text for widget add button -->
-    <string name="widget_button_text">विजेट्स</string>
+    <string name="widget_button_text">Widgets</string>
     <!-- Text for wallpaper change button -->
-    <string name="wallpaper_button_text">वॉलपेपर्स</string>
+    <string name="wallpaper_button_text">Wallpapers</string>
     <!-- Text for settings button -->
-    <string name="settings_button_text">सेटिंग्स</string>
+    <string name="settings_button_text">Settings</string>
     <!-- Message shown when a feature is disabled by the administrator -->
     <string name="msg_disabled_by_admin">Disabled by your admin</string>
     <!-- Text for custom accessibility action to go to the overview mode, where users can look and change the overall UI of the launcher. -->
-    <string name="accessibility_action_overview">ओवरव्यू</string>
+    <string name="accessibility_action_overview">Overview</string>
     <!-- Strings for settings -->
     <!-- Title for Allow Rotation setting. [CHAR LIMIT=50] -->
     <string name="allow_rotation_title">Screen orientation</string>
@@ -157,9 +157,9 @@
     <!-- Title for Notification dots setting. Tapping this will link to the system Notifications settings screen where the user can turn off notification dots globally. [CHAR LIMIT=50] -->
     <string name="icon_badging_title">Notification dots</string>
     <!-- Text to indicate that the system icon badging setting is on [CHAR LIMIT=100] -->
-    <string name="icon_badging_desc_on">चालू</string>
+    <string name="icon_badging_desc_on">On</string>
     <!-- Text to indicate that the system icon badging setting is off [CHAR LIMIT=100] -->
-    <string name="icon_badging_desc_off">बंद</string>
+    <string name="icon_badging_desc_off">Off</string>
     <!-- Title for the dialog shown when the app does not has notification access, explaining the requirement for notification access [CHAR LIMIT=50] -->
     <string name="title_missing_notification_access">Notification access needed</string>
     <!-- Message explaining to the user that the notification access is required by the app for showing 'Notification dots' [CHAR LIMIT=NONE] -->
@@ -175,22 +175,22 @@
     <!-- Option to not change the icon shape on home screen and use the system default setting instead. [CHAR LIMIT=50] -->
     <string name="icon_shape_system_default">Use system default</string>
     <!-- Option to change the shape of the home screen icons to a square. [CHAR LIMIT=50] -->
-    <string name="icon_shape_square">स्क्वायर</string>
+    <string name="icon_shape_square">Square</string>
     <!-- Option to change the shape of the home screen icons to a squircle. This represents the name of the shape somewhere between a circle and a square. [CHAR LIMIT=50] -->
-    <string name="icon_shape_squircle">स्क्वेरकल</string>
+    <string name="icon_shape_squircle">Squircle</string>
     <!-- Option to change the shape of the home screen icons to a circle. [CHAR LIMIT=50] -->
-    <string name="icon_shape_circle">सर्कल</string>
+    <string name="icon_shape_circle">Circle</string>
     <!-- Option to change the shape of the home screen icons to a teardrop. This represents the name of the shape similar to a circle with with the bottom right corner pushed out like a square [CHAR LIMIT=50] -->
-    <string name="icon_shape_teardrop">टियरड्रॉप</string>
+    <string name="icon_shape_teardrop">Teardrop</string>
     <string name="icon_shape_rounded_square">Rounded square</string>
     <!-- Message shown in the progress dialog when the icon shape override is being applied [CHAR LIMIT=100]-->
     <string name="icon_shape_override_progress">Applying icon shape changes</string>
     <!-- Label on an icon that references an uninstalled package, for which we have no information about when it might be installed. [CHAR_LIMIT=15] -->
-    <string name="package_state_unknown">अज्ञात</string>
+    <string name="package_state_unknown">Unknown</string>
     <!-- Button for abandoned promises dialog, to removes this abandoned promise icon. -->
-    <string name="abandoned_clean_this">हटाएं</string>
+    <string name="abandoned_clean_this">Remove</string>
     <!-- Button for abandoned promise dialog, to search in the market for the missing package. -->
-    <string name="abandoned_search">खोजें</string>
+    <string name="abandoned_search">Search</string>
     <!-- Title for abandoned promise dialog. -->
     <string name="abandoned_promises_title">This app is not installed</string>
     <!-- Explanation for abandoned promise dialog. "The first 'it' refers to the shortcut icon.
@@ -215,7 +215,7 @@
     <!-- Accessibility confirmation for item removed. -->
     <string name="item_removed">Item removed</string>
     <!-- Accessibility action to move an item on the workspace. [CHAR_LIMIT=30] -->
-    <string name="action_move">आइटम मूव करें</string>
+    <string name="action_move">Move item</string>
     <!-- Accessibility description to move item to empty cell. -->
     <string name="move_to_empty_cell">Move to row <xliff:g id="number" example="1">%1$s</xliff:g> column <xliff:g id="number" example="1">%2$s</xliff:g></string>
     <!-- Accessibility description to move item inside a folder. -->
@@ -243,7 +243,7 @@
     <!-- Accessibility confirmation when a screen was moved. -->
     <string name="screen_moved">Screen moved</string>
     <!-- Accessibility action to resize a widget. [CHAR_LIMIT=30] -->
-    <string name="action_resize">आकार बदलें</string>
+    <string name="action_resize">Resize</string>
     <!-- Accessibility action to increase width of a widget. [CHAR_LIMIT=30] -->
     <string name="action_increase_width">Increase width</string>
     <!-- Accessibility action to increase height of a widget. [CHAR_LIMIT=30] -->
@@ -255,44 +255,44 @@
     <!-- Accessibility confirmation for widget resize. -->
     <string name="widget_resized">Widget resized to width <xliff:g id="number" example="2">%1$s</xliff:g> height <xliff:g id="number" example="1">%2$s</xliff:g></string>
     <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
-    <string name="action_deep_shortcut">शॉर्टकट्स</string>
+    <string name="action_deep_shortcut">Shortcuts</string>
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
     <string name="shortcuts_menu_description"><xliff:g id="number_of_shortcuts" example="3">%1$d</xliff:g> shortcuts for <xliff:g id="app_name" example="Messenger">%2$s</xliff:g></string>
     <!-- Accessibility description when the shortcuts menu has notifications as well as shortcuts. -->
     <string name="shortcuts_menu_with_notifications_description"><xliff:g id="number_of_shortcuts" example="3">%1$d</xliff:g> shortcuts and <xliff:g id="number_of_notifications" example="3">%2$d</xliff:g> notifications for <xliff:g id="app_name" example="Messenger">%3$s</xliff:g></string>
     <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
-    <string name="action_dismiss_notification">खारिज</string>
+    <string name="action_dismiss_notification">Dismiss</string>
     <!-- Accessibility confirmation for notification being dismissed. -->
     <string name="notification_dismissed">Notification dismissed</string>
     <string name="icu_abbrev_wday_month_day_no_year">EEEMMMd</string>
     <string name="smartspace_preferences">Preferences</string>
-    <string name="label_search">खोजें</string>
+    <string name="label_search">Search</string>
     <string name="label_voice_search">Voice search</string>
     <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
-    <string name="pref_icon_pack">आइकन पैक</string>
-    <string name="state_loading">लागू हो रहा…</string>
+    <string name="pref_icon_pack">Icon pack</string>
+    <string name="state_loading">Applying…</string>
     <string name="smartspace_preferences_in_settings">\"At a Glance\" widget</string>
     <string name="smartspace_preferences_in_settings_desc">Show a widget at the top of the homescreen that displays different events</string>
     <string name="title_show_google_app">%1$s</string>
     <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
     <string name="msg_minus_one_on_left">Swipe to the right on the homescreen to access Google now panel</string>
-    <string name="about">जानकारी</string>
+    <string name="about">About</string>
     <string name="title_google_app">Google now panel</string>
     <string name="title_app_suggestions">App suggestions</string>
     <string name="summary_app_suggestions">Show app suggestions at the top of your All Apps list</string>
-    <string name="about_app_version">संस्करण</string>
+    <string name="about_app_version">Version</string>
     <string name="app_name_pixel_launcher">@string/crdroidhome_app_name</string>
     <string name="title_disable_suggestions_prompt">Turn off app suggestions?</string>
     <string name="msg_disable_suggestions_prompt">"Suggestions won't appear at the top of your apps list, and the usage data used to create them will be permanently erased."</string>
-    <string name="label_turn_off_suggestions">बंद करें</string>
+    <string name="label_turn_off_suggestions">TURN OFF</string>
     <!-- Hidden app -->
-    <string name="hide_app">एप्स छुपाएं</string>
+    <string name="hide_app">Hide apps</string>
     <string name="hide_app_sum">Hide apps from the app drawer</string>
     <string name="hide_app_selected">&#160;selected</string>
-    <string name="hidden_app">सभी एप्प्स</string>
+    <string name="hidden_app">All apps</string>
     <string name="hide_selected">Hide selected app(s)</string>
-    <string name="more">अधिक</string>
-    <string name="reset_hidden_apps">सभी रीसेट करें</string>
+    <string name="more">More</string>
+    <string name="reset_hidden_apps">Reset all</string>
     <string name="reset_hidden_apps_done">Hidden apps are now available</string>
     <string name="pref_show_clock_weather">Home screen date and weather</string>
     <string name="pref_show_clock_weather_both">Show both date and weather</string>
@@ -304,12 +304,12 @@
     <string name="bottom_search_bar_summary">Show the bottom search bar at the bottom of the dock</string>
     <string name="top_search_bar_title">Top search bar</string>
     <string name="top_search_bar_summary">Show the bottom search at the top of the app drawer</string>
-    <string name="num_default">डिफॉल्ट</string>
-    <string name="num_three">तीन</string>
-    <string name="num_four">चार</string>
-    <string name="num_five">पांच</string>
-    <string name="num_six">छह</string>
-    <string name="num_seven">सात</string>
+    <string name="num_default">Default</string>
+    <string name="num_three">Three</string>
+    <string name="num_four">Four</string>
+    <string name="num_five">Five</string>
+    <string name="num_six">Six</string>
+    <string name="num_seven">Seven</string>
     <string-array name="grid_names">
         <item>@string/num_default</item>
         <item>@string/num_three</item>
@@ -319,35 +319,35 @@
         <item>@string/num_seven</item>
     </string-array>
     <string-array name="grid_values">
-        <item>डिफॉल्ट</item>
-        <item>तीन</item>
-        <item>चार</item>
-        <item>पांच</item>
-        <item>छह</item>
-        <item>सात</item>
+        <item>default</item>
+        <item>three</item>
+        <item>four</item>
+        <item>five</item>
+        <item>six</item>
+        <item>seven</item>
     </string-array>
     <string name="number_of_columns_title">Grid columns</string>
-    <string name="number_of_rows_title">ग्रिड रो</string>
+    <string name="number_of_rows_title">Grid rows</string>
     <string name="number_of_hotseat_title">No. of dock icons</string>
-    <string name="action_edit">एडिट</string>
+    <string name="action_edit">Edit</string>
     <string name="pref_override_icon_shape_dark_bg_title">Use dark shape</string>
     <string name="pref_override_icon_shape_dark_bg_summary">Use a dark background color for icons without their own shape color</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <!-- Folder titles -->
-    <string name="play_folder_title">प्ले</string>
+    <string name="play_folder_title">Play</string>
     <!-- Icon pack -->
-    <string name="default_iconpack_title">डिफॉल्ट</string>
-    <string name="icons_pack_name">आइकन पैक</string>
-    <string name="edit_drop_target_label">एडिट</string>
-    <string name="edit_hint">आइकन नाम</string>
-    <string name="edit_app">एडिट</string>
-    <string name="reset_icon">रीसेट</string>
-    <string name="customize">कस्टमाइज</string>
-    <string name="visual">विजुअल</string>
-    <string name="all_icons">सभी आइकन्स</string>
+    <string name="default_iconpack_title">Default</string>
+    <string name="icons_pack_name">Icon pack</string>
+    <string name="edit_drop_target_label">Edit</string>
+    <string name="edit_hint">Icon name</string>
+    <string name="edit_app">Edit</string>
+    <string name="reset_icon">Reset</string>
+    <string name="customize">Customize</string>
+    <string name="visual">Visual</string>
+    <string name="all_icons">All icons</string>
     <string name="similar_icons">Similar icons</string>
-    <string name="ok">ठीक है</string>
-    <string name="icon_label">लेबल</string>
+    <string name="ok">Ok</string>
+    <string name="icon_label">Label</string>
     <string name="loading">Loading, please wait</string>
     <string name="icon_chooser">Icon chooser</string>
     <string name="icon_search">Search for icons</string>
@@ -367,9 +367,9 @@
     <!-- Preference categories -->
     <string name="home_category_title">Home screen</string>
     <string name="app_drawer_category_title">App drawer</string>
-    <string name="icon_category_title">एप आइकन्स</string>
-    <string name="widget_category_title">विजेट्स</string>
+    <string name="icon_category_title">App icons</string>
+    <string name="widget_category_title">Widgets</string>
     <string name="other_category_title">Miscellaneous</string>
     <string name="grid_category_title">Icons grid</string>
-    <string name="gestures_category_title">जेस्चर्स</string>
+    <string name="gestures_category_title">Gestures</string>
 </resources>
