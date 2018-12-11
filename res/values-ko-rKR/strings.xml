@@ -220,13 +220,13 @@
     <!-- Accessibility confirmation for item move. -->
     <string name="item_moved">항목을 이동했습니다.</string>
     <!-- Accessibility description to move item into an existing folder. -->
-    <string name="add_to_folder">Add to folder: <xliff:g id="name" example="Games">%1$s</xliff:g></string>
+    <string name="add_to_folder">폴더에 추가 : <xliff : g id = "name"example = "게임"> % 1 $ s </ xliff : g></string>
     <!-- Accessibility description to move item into an existing folder containing an app. -->
-    <string name="add_to_folder_with_app">Add to folder with <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
+    <string name="add_to_folder_with_app"><xliff:g id="NAME">%1$s</xliff:g>이(가) 포함된 폴더에 추가</string>
     <!-- Accessibility confirmation for item added to folder. -->
     <string name="added_to_folder">항목이 폴더에 추가되었습니다.</string>
     <!-- Accessibility description to create folder with another item. -->
-    <string name="create_folder_with">Create folder with: <xliff:g id="name" example="Game">%1$s</xliff:g></string>
+    <string name="create_folder_with">다음이 포함된 폴더 만들기: <xliff:g id="NAME">%1$s</xliff:g></string>
     <!-- Accessibility confirmation for folder created. -->
     <string name="folder_created">폴더가 생성되었습니다.</string>
     <!-- Accessibility action to move an item from folder to workspace. [CHAR_LIMIT=30] -->
@@ -248,26 +248,26 @@
     <!-- Accessibility action to decrease height of a widget. [CHAR_LIMIT=30] -->
     <string name="action_decrease_height">높이 줄이기</string>
     <!-- Accessibility confirmation for widget resize. -->
-    <string name="widget_resized">Widget resized to width <xliff:g id="number" example="2">%1$s</xliff:g> height <xliff:g id="number" example="1">%2$s</xliff:g></string>
+    <string name="widget_resized">폭 <xliff:g id="NUMBER_0">%1$s</xliff:g>, 높이 <xliff:g id="NUMBER_1">%2$s</xliff:g>로 위젯 크기 조정됨</string>
     <!-- Accessibility action to show quick actions menu for an icon. [CHAR_LIMIT=30] -->
     <string name="action_deep_shortcut">바로가기</string>
     <!-- Accessibility description for the shortcuts menu shown for an app. -->
-    <string name="shortcuts_menu_description"><xliff:g id="number_of_shortcuts" example="3">%1$d</xliff:g> shortcuts for <xliff:g id="app_name" example="Messenger">%2$s</xliff:g></string>
+    <string name="shortcuts_menu_description"><xliff:g id="APP_NAME">%2$s</xliff:g>에 사용 가능한 단축키 <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g>개</string>
     <!-- Accessibility description when the shortcuts menu has notifications as well as shortcuts. -->
-    <string name="shortcuts_menu_with_notifications_description"><xliff:g id="number_of_shortcuts" example="3">%1$d</xliff:g> shortcuts and <xliff:g id="number_of_notifications" example="3">%2$d</xliff:g> notifications for <xliff:g id="app_name" example="Messenger">%3$s</xliff:g></string>
+    <string name="shortcuts_menu_with_notifications_description">바로가기 <xliff:g id="NUMBER_OF_SHORTCUTS">%1$d</xliff:g>개 및 <xliff:g id="APP_NAME">%3$s</xliff:g> 알림 <xliff:g id="NUMBER_OF_NOTIFICATIONS">%2$d</xliff:g>개</string>
     <!-- Accessibility action to dismiss a notification in the shortcuts menu for an icon. [CHAR_LIMIT=30] -->
-    <string name="action_dismiss_notification">Dismiss</string>
+    <string name="action_dismiss_notification">끄기</string>
     <!-- Accessibility confirmation for notification being dismissed. -->
-    <string name="notification_dismissed">Notification dismissed</string>
+    <string name="notification_dismissed">알림이 해제되었습니다.</string>
     <string name="icu_abbrev_wday_month_day_no_year">EEEMMMd</string>
-    <string name="smartspace_preferences">Preferences</string>
+    <string name="smartspace_preferences">설정</string>
     <string name="label_search">검색</string>
     <string name="label_voice_search">음성 검색</string>
     <string name="default_live_wallpaper">com.breel.wallpapers/com.breel.wallpapers.dioramas.lagos.LagosWallpaperService</string>
     <string name="pref_icon_pack">아이콘 팩</string>
     <string name="state_loading">적용 중...</string>
     <string name="smartspace_preferences_in_settings">한눈에 보기</string>
-    <string name="smartspace_preferences_in_settings_desc">Show a widget at the top of the homescreen that displays different events</string>
+    <string name="smartspace_preferences_in_settings_desc">홈 화면 상단에 위젯 표시</string>
     <string name="title_show_google_app">%1$s</string>
     <string name="pref_show_google_now_summary">@string/msg_minus_one_on_left</string>
     <string name="msg_minus_one_on_left">구글 나우 패널에 액세스하기 위해 오른쪽으로 스와이프</string>
@@ -288,7 +288,7 @@
     <string name="hide_selected">선택된 앱 숨김</string>
     <string name="more">더 보기</string>
     <string name="reset_hidden_apps">모두 초기화</string>
-    <string name="reset_hidden_apps_done">Hidden apps are now available</string>
+    <string name="reset_hidden_apps_done">숨겨진 앱들을 이제 사용 가능합니다</string>
     <string name="pref_show_clock_weather">홈 화면 날짜 및 날씨</string>
     <string name="pref_show_clock_weather_both">날짜 및 날씨 모두 표시</string>
     <string name="pref_show_clock_weather_nothing">표시 안함</string>
@@ -298,7 +298,7 @@
     <string name="bottom_search_bar_title">하단 검색바</string>
     <string name="bottom_search_bar_summary">독 바 하단에 검색바 표시</string>
     <string name="top_search_bar_title">상단 검색바</string>
-    <string name="top_search_bar_summary">Show the bottom search at the top of the app drawer</string>
+    <string name="top_search_bar_summary">앱 서랍 상단에 하단 검색을 표시</string>
     <string name="num_default">기본값</string>
     <string name="num_three">3</string>
     <string name="num_four">4</string>
@@ -329,12 +329,12 @@
     <string name="pref_override_icon_shape_dark_bg_summary">아이콘에 원래 배경 색 대신에 어두운 배경 색을 사용</string>
     <string name="smartspace_hours_mins">%1$s %2$s</string>
     <!-- Folder titles -->
-    <string name="play_folder_title">Play</string>
+    <string name="play_folder_title">재생</string>
     <!-- Icon pack -->
     <string name="default_iconpack_title">기본값</string>
     <string name="icons_pack_name">아이콘 팩</string>
     <string name="edit_drop_target_label">편집</string>
-    <string name="edit_hint">Icon name</string>
+    <string name="edit_hint">아이콘 이름</string>
     <string name="edit_app">편집</string>
     <string name="reset_icon">재설정</string>
     <string name="customize">사용자 정의</string>
