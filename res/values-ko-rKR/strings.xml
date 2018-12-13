@@ -220,9 +220,9 @@
     <!-- Accessibility confirmation for item move. -->
     <string name="item_moved">항목을 이동했습니다.</string>
     <!-- Accessibility description to move item into an existing folder. -->
-    <string name="add_to_folder">폴더에 추가 : <xliff : g id = "name"example = "게임"> % 1 $ s </ xliff : g></string>
+    <string name="add_to_folder">폴더에 추가: <xliff:g id="name">%1$s</xliff:g></string>
     <!-- Accessibility description to move item into an existing folder containing an app. -->
-    <string name="add_to_folder_with_app">폴더에 추가 <xliff:g id="name" example="Messenger">%1$s</xliff:g></string>
+    <string name="add_to_folder_with_app"><xliff:g id="name">%1$s</xliff:g>이(가) 포함된 폴더에 추가</string>
     <!-- Accessibility confirmation for item added to folder. -->
     <string name="added_to_folder">항목이 폴더에 추가되었습니다.</string>
     <!-- Accessibility description to create folder with another item. -->
