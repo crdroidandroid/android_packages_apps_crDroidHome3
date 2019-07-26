@@ -43,9 +43,6 @@ class CustomFontManager(private val context: Context) {
 
     private val fontName = context.lawnchairPrefs.customFontName
 
-    private val uiRegular = FontCache.GoogleFont(context, fontName)
-    private val uiMedium = FontCache.GoogleFont(context, fontName, VARIANT_MEDIUM)
-
     private val launcherRegular = FontCache.SystemFont("sans-serif")
     private val launcherMedium = FontCache.SystemFont("sans-serif-medium")
     private val launcherCondensed = FontCache.SystemFont("sans-serif-condensed")
@@ -55,7 +52,7 @@ class CustomFontManager(private val context: Context) {
 
     private val workspaceFont = FontPref("pref_font_workspace", launcherCondensed)
     private val folderFont = workspaceFont
-    private val smartspaceTextFont = FontPref("pref_font_smartspaceText", uiMedium)
+    private val smartspaceTextFont = FontPref("pref_font_smartspaceText", launcherMedium)
 
     private val deepShortcutFont = FontPref("pref_font_deepShortcut", launcherRegular)
     private val systemShortcutFont = deepShortcutFont
@@ -64,7 +61,7 @@ class CustomFontManager(private val context: Context) {
     private val allAppsFont = FontPref("pref_font_allApps", launcherCondensed)
     private val drawerFolderFont = allAppsFont
     private val actionFont = FontPref("pref_font_drawerAppActions", launcherCondensed)
-    private val drawerTab = FontPref("pref_font_drawerTab", uiMedium)
+    private val drawerTab = FontPref("pref_font_drawerTab", launcherMedium)
 
     private fun createFontMap(): Map<Int, FontSpec> {
         TraceHelper.beginSection("createFontMap")
@@ -74,14 +71,14 @@ class CustomFontManager(private val context: Context) {
         val sansSerifCondensed = Typeface.create("sans-serif-condensed", Typeface.NORMAL)
 
         val map = HashMap<Int, FontSpec>()
-        map[FONT_TITLE] = FontSpec(uiRegular, sansSerif)
-        map[FONT_PREFERENCE_TITLE] = FontSpec(uiRegular, sansSerif)
-        map[FONT_BUTTON] = FontSpec(uiMedium, sansSerifMedium)
-        map[FONT_CATEGORY_TITLE] = FontSpec(uiMedium, sansSerifMedium)
-        map[FONT_DIALOG_TITLE] = FontSpec(uiMedium, sansSerifMedium)
-        map[FONT_SETTINGS_TAB] = FontSpec(uiMedium, sansSerifMedium)
-        map[FONT_TEXT] = FontSpec(uiRegular, sansSerif)
-        map[FONT_SETTINGS_TILE_TITLE] = FontSpec(uiMedium, sansSerifMedium)
+        map[FONT_TITLE] = FontSpec(launcherRegular, sansSerif)
+        map[FONT_PREFERENCE_TITLE] = FontSpec(launcherRegular, sansSerif)
+        map[FONT_BUTTON] = FontSpec(launcherMedium, sansSerifMedium)
+        map[FONT_CATEGORY_TITLE] = FontSpec(launcherMedium, sansSerifMedium)
+        map[FONT_DIALOG_TITLE] = FontSpec(launcherMedium, sansSerifMedium)
+        map[FONT_SETTINGS_TAB] = FontSpec(launcherMedium, sansSerifMedium)
+        map[FONT_TEXT] = FontSpec(launcherRegular, sansSerif)
+        map[FONT_SETTINGS_TILE_TITLE] = FontSpec(launcherMedium, sansSerifMedium)
         map[FONT_SMARTSPACE_TEXT] = FontSpec(smartspaceTextFont, sansSerif)
         map[FONT_BASE_ICON] = FontSpec(FontCache.DummyFont(), sansSerifCondensed)
         map[FONT_WORKSPACE_ICON] = FontSpec(workspaceFont, sansSerifCondensed)
