@@ -32,7 +32,7 @@ if (localPropsFile.exists()) {
 
 def publicBranches = ["alpha", "beta"]
 def ciBuild = localProps.getProperty("ciBuild") == "true" || System.getenv("CI_BUILD") == "true"
-def isPublicBuild = localProps.getProperty("public") == "true" || (ciBuild && publicBranches.contains(System.getenv("DRONE_BRANCH")))
+def isPublicBuild = true
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
