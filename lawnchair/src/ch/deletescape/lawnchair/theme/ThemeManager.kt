@@ -71,7 +71,7 @@ class ThemeManager(val context: Context) : WallpaperColorInfo.OnChangeListener, 
         val values = context.resources.getIntArray(R.array.themeValues)
         val strings = context.resources.getStringArray(R.array.themes)
         val index = values.indexOf(themeFlags)
-        return strings.getOrNull(index) ?: context.resources.getString(R.string.theme_auto)
+        return strings.getOrNull(index) ?: context.resources.getString(R.string.theme_auto_night_mode)
     }
 
     private val twilightManager by lazy { TwilightManager.getInstance(context) }
