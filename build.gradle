@@ -193,6 +193,14 @@ android {
 
             buildConfigField "boolean", "SIGNATURE_VERIFICATION", "true"
         }
+
+        crdroid {
+            dimension "build"
+            applicationIdSuffix ".crdroid"
+            versionCode 1
+            versionName "9.0"
+            buildConfigField "boolean", "SIGNATURE_VERIFICATION", "false"
+        }
     }
 
     sourceSets {
