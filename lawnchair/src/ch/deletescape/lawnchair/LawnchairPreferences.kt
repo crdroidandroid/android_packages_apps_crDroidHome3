@@ -157,7 +157,6 @@ class LawnchairPreferences(val context: Context) : SharedPreferences.OnSharedPre
             SmartspaceDataWidget::class.java.name, ::updateSmartspaceProvider)
     var eventProviders = StringListPref("pref_smartspace_event_providers",
             ::updateSmartspaceProvider, listOf(eventProvider,
-                                               NotificationUnreadProvider::class.java.name,
                                                NowPlayingProvider::class.java.name,
                                                BatteryStatusProvider::class.java.name,
                                                PersonalityProvider::class.java.name))
