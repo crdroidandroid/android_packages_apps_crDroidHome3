@@ -24,7 +24,7 @@
         android:key="pref_globalSearchProvider"
         android:title="@string/pref_global_search_provider" />
 
-    <ch.deletescape.lawnchair.preferences.StyledPreferenceCategory
+    <!--<ch.deletescape.lawnchair.preferences.StyledPreferenceCategory
         android:title="@string/sesame">
 
         <ch.deletescape.lawnchair.sesame.preferences.SesameIntegrationPreference
@@ -55,7 +55,7 @@
         <ch.deletescape.lawnchair.sesame.preferences.SesameVersionPreference
             android:key="sesame_version"
             android:title="@string/sesame_version" />
-    </ch.deletescape.lawnchair.preferences.StyledPreferenceCategory>
+    </ch.deletescape.lawnchair.preferences.StyledPreferenceCategory>-->
 
     <ch.deletescape.lawnchair.preferences.StyledPreferenceCategory
         android:title="@string/google">

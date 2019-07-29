@@ -260,7 +260,7 @@
             </intent-filter>
         </activity>
 
-        <activity
+        <!--<activity
             android:label="@string/pref_integrations"
             android:name="ch.deletescape.lawnchair.settings.ui.SettingsIntegrationActivity"
             android:parentActivityName="ch.deletescape.lawnchair.settings.ui.SettingsActivity"
@@ -270,7 +270,7 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity>
+        </activity>-->
 
         <activity
             android:label="@string/search"
