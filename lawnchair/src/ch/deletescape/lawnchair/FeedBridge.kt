@@ -70,20 +70,7 @@ class FeedBridge(private val context: Context) {
         }
 
         private fun isSigned(): Boolean {
-            if (BuildConfig.FLAVOR_build.equals("dev"))
-                return true // Skip signature checks for dev builds
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
-                val info = context.packageManager.getPackageInfo(packageName, PackageManager.GET_SIGNING_CERTIFICATES)
-                val signingInfo = info.signingInfo
-                if (signingInfo.hasMultipleSigners()) return false
-                return signingInfo.signingCertificateHistory.any { it.hashCode() == signatureHash }
-            } else {
-                val info = context.packageManager.getPackageInfo(packageName, PackageManager.GET_SIGNATURES)
-                info.signatures.forEach {
-                    if (it.hashCode() != signatureHash) return false
-                }
-                return info.signatures.isNotEmpty()
-            }
+            return true;
         }
     }
 
@@ -99,6 +86,6 @@ class FeedBridge(private val context: Context) {
         private const val overlayAction = "com.android.launcher3.WINDOW_OVERLAY"
 
         @JvmStatic
-        val useBridge = FeatureFlags.FORCE_FEED_BRIDGE || !BuildConfig.DEBUG
+        val useBridge = true
     }
 }
